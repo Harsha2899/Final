@@ -390,8 +390,7 @@ function logAnswer(
   fetch(googleAppsScriptURL, {
     method: "POST",
     body: JSON.stringify(payload),
-    headers: { "Content-Type": "application/json" },
-    "x-requested-with": "XMLHttpRequest"
+    headers: { "Content-Type": "application/json" }
   })
   .then(response => response.json())
   .then(data => {
@@ -409,8 +408,10 @@ function logFinalScore(finalCorrectCount, finalIncorrectCount, totalQuestions, p
         action: "logFinalScore",
         email: userEmail,
         sessionId: currentSessionId,
-        questionId: "FINAL_SCORE",
-        overallScore: `${finalCorrectCount} / ${totalQuestions} (${percentage}%)`,
+        totalQuestions: totalQuestions,
+        correctCount: finalCorrectCount,
+        incorrectCount: finalIncorrectCount,
+        percentageScore: percentage,
         timestamp: new Date().toISOString()
     };
 
