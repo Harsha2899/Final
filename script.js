@@ -390,7 +390,8 @@ function logAnswer(
   fetch(googleAppsScriptURL, {
     method: "POST",
     body: JSON.stringify(payload),
-    headers: { "Content-Type": "application/json" }
+    headers: { "Content-Type": "application/json" },
+    "x-requested-with": "XMLHttpRequest"
   })
   .then(response => response.json())
   .then(data => {
