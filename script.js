@@ -405,9 +405,10 @@ function logAnswer(
   };
 
   fetch(googleAppsScriptURL, {
+    redirect: "follow",
     method: "POST",
     body: JSON.stringify(payload),
-    headers: { "Content-Type": "application/json" }
+    headers: { "Content-Type": "text/plain;charset=utf-8" }
   })
   .then(response => response.json())
   .then(data => {
@@ -433,9 +434,10 @@ function logFinalScore(finalCorrectCount, finalIncorrectCount, totalQuestions, p
     };
 
     fetch(googleAppsScriptURL, {
+        redirect: "follow",
         method: "POST",
         body: JSON.stringify(payload),
-        headers: { "Content-Type": "application/json" }
+        headers: { "Content-Type": "text/plain;charset=utf-8" }
     })
     .then(response => response.json())
     .then(data => {
