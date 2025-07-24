@@ -26,11 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (userEmail && userEmail.includes("@")) {
       currentSessionId = Date.now().toString(); // Generate a unique session ID (e.g., timestamp)
       
-      questions = selectedSectionQuestions;
-      if (questions.length > 0) {
+      document.getElementById("emailScreen").style.display = "none";
+      if (selectedSectionQuestions.length > 0) {
         showQuestion(currentQuestionIndex);
       } else {
-        alert("No questions found for this section.");
+        alert("No questions found for this section. Please select a section first.");
         document.getElementById("emailScreen").style.display = "none";
         document.getElementById("home").style.display = "block";
       }
@@ -40,8 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("showHint").addEventListener("click", () => {
-    if (!answeredQuestions.has(currentQuestionIndex)) {
-      const q = questions[currentQuestionIndex];
+    // Corrected to use selectedSectionQuestions and check if answered
+    if (selectedSectionQuestions.length > 0 && !answeredQuestions.has(currentQuestionIndex)) {
+      const q = selectedSectionQuestions[currentQuestionIndex];
       document.getElementById("hintBox").innerText = q.hint || "";
       document.getElementById("hintBox").classList.add("hint-box");
       usedHint = true;
@@ -49,7 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("prevButton").addEventListener("click", () => {
-    if (!answeredQuestions.has(currentQuestionIndex) && currentQuestionIndex > 0) {
+    // Corrected to use selectedSectionQuestions
+    if (selectedSectionQuestions.length > 0 && !answeredQuestions.has(currentQuestionIndex) && currentQuestionIndex > 0) {
         markQuestionAsSkipped(currentQuestionIndex);
     }
     if (currentQuestionIndex > 0) {
@@ -58,11 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("nextButton").addEventListener("click", () => {
-    if (!answeredQuestions.has(currentQuestionIndex)) {
+    // Corrected to use selectedSectionQuestions
+    if (selectedSectionQuestions.length > 0 && !answeredQuestions.has(currentQuestionIndex)) {
         markQuestionAsSkipped(currentQuestionIndex);
     }
 
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < selectedSectionQuestions.length - 1) { // Check against selectedSectionQuestions length
       showQuestion(++currentQuestionIndex);
     } else {
       showScore();
@@ -72,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function showSectionList() {
   const sectionContainer = document.getElementById("sectionList");
+  // Ensure uniqueSections are derived from the full 'questions' array
   const uniqueSections = [...new Set(questions.map(q => q.section))].sort((a, b) => a - b);
 
   const sectionNames = {
@@ -81,20 +85,22 @@ function showSectionList() {
     4: "What is a Run-on Sentence",
     5: "How to fix Run-on Sentence",
     6: "Pronoun Agreement",
-    7: "Verb Tense"
+    7: "Verb Tense" // Explicitly added Verb Tense for Section 7
+    // Section 8 has been removed as requested.
   };
 
   sectionContainer.innerHTML = "";
   uniqueSections.forEach(section => {
     const btn = document.createElement("button");
     btn.className = "section-button";
-    btn.innerText = sectionNames[section] || `Section ${section}`;
+    btn.innerText = sectionNames[section] || `Section ${section}`; // Use defined name or default
     btn.onclick = () => {
       selectedSectionQuestions = questions.filter(q => q.section === section);
       currentQuestionIndex = 0;
       answeredQuestions.clear();
       correctCount = 0;
       incorrectCount = 0;
+      usedHint = false; // Reset hint usage for new section
       followUpAnswered.clear();
       
       selectedSectionQuestions.forEach(q => {
@@ -118,15 +124,21 @@ function showSectionList() {
 }
 
 function showQuestion(index) {
-  const q = questions[index];
-  usedHint = false;
+  // Use selectedSectionQuestions for current question logic
+  const q = selectedSectionQuestions[index];
+  if (!q) { // Handle case where question might not exist (e.g., end of quiz)
+    showScore();
+    return;
+  }
+
+  usedHint = false; // Reset for each question load
   q.startTime = new Date();
 
   document.getElementById("emailScreen").style.display = "none";
   document.getElementById("scoreScreen").style.display = "none";
   document.getElementById("questionScreen").style.display = "block";
 
-  document.getElementById("questionNumber").innerText = `Question ${index + 1} of ${questions.length}`;
+  document.getElementById("questionNumber").innerText = `Question ${index + 1} of ${selectedSectionQuestions.length}`;
   document.getElementById("questionText").innerText = q.question;
 
   const hintBox = document.getElementById("hintBox");
@@ -160,7 +172,9 @@ function showQuestion(index) {
   const isQuestionAnswered = answeredQuestions.has(index);
   document.getElementById("showHint").disabled = isQuestionAnswered;
   document.getElementById("prevButton").disabled = index === 0;
-  document.getElementById("nextButton").disabled = false;
+  // Next button is disabled only if it's the last question AND it's already answered
+  document.getElementById("nextButton").disabled = (index === selectedSectionQuestions.length - 1 && isQuestionAnswered);
+
 
   if (isQuestionAnswered) {
     document.querySelectorAll("input[name='option']").forEach(radio => {
@@ -180,7 +194,8 @@ function showQuestion(index) {
 }
 
 function handleSubmitAnswer(selectedValue) {
-  const q = questions[currentQuestionIndex];
+  // Use selectedSectionQuestions for current question logic
+  const q = selectedSectionQuestions[currentQuestionIndex];
   
   if (answeredQuestions.has(currentQuestionIndex)) {
     return;
@@ -198,12 +213,13 @@ function handleSubmitAnswer(selectedValue) {
   let feedbackText = '';
   if (q.feedback) { // Check for old format (q1-q55)
     feedbackText = usedHint ? (wasCorrect ? q.feedback.correct_hint : q.feedback.incorrect_hint) : (wasCorrect ? q.feedback.correct_no_hint : q.feedback.incorrect_no_hint);
-  } else { // Handle new format (q56+)
-    const selectedOption = selectedValue.toLowerCase();
+  } else { // Handle new format (q56+) that uses explanationCorrect/IncorrectX
+    const selectedOptionKey = selectedValue; // e.g., "A", "B", "C", "D"
     if (wasCorrect) {
       feedbackText = `✅ Correct! ${q.explanationCorrect || ''}`;
     } else {
-      feedbackText = `❌ Incorrect. ${q[`explanationIncorrect${selectedValue}`] || ''}`;
+      // Access specific incorrect explanation based on selected value (e.g., explanationIncorrectA)
+      feedbackText = `❌ Incorrect. ${q[`explanationIncorrect${selectedOptionKey}`] || ''}`;
     }
   }
 
@@ -215,12 +231,12 @@ function handleSubmitAnswer(selectedValue) {
     feedbackBox.classList.add("correct");
     feedbackBox.classList.remove("incorrect");
     correctCount++;
-    // FIX: Check for both old and new follow-up fields
+    // Check for both old (followUpQuestion) and new (followUpCorrect) follow-up fields
     if (q.followUpQuestion || q.followUpCorrect) {
-        q.followUpNeeded = true;
-        if (!followUpAnswered.has(q.id)) {
-            showFollowUp(q);
-        }
+      q.followUpNeeded = true;
+      if (!followUpAnswered.has(q.id)) { // Only show if not answered in this session
+        showFollowUp(q);
+      }
     }
   } else {
     feedbackBox.classList.add("incorrect");
@@ -234,21 +250,21 @@ function handleSubmitAnswer(selectedValue) {
   logAnswer(
     q.section,
     currentSessionId,
-    `${currentQuestionIndex + 1}/${questions.length}`,
+    `${currentQuestionIndex + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
     usedHint ? "Yes" : "No",
     selectedValue,
     wasCorrect ? "Correct" : "Incorrect",
     timeSpent.toFixed(2),
     q.lastFeedbackText,
-    "N/A",
-    "N/A",
+    "N/A", // Follow-up answer initially N/A
+    "N/A", // Overall score initially N/A
     q.id,
     q.question
   );
 }
 
 function markQuestionAsSkipped(index) {
-    const q = questions[index];
+    const q = selectedSectionQuestions[index]; // Use selectedSectionQuestions
     if (!answeredQuestions.has(index)) {
         q.endTime = new Date();
         const timeSpent = (q.endTime - (q.startTime || new Date())) / 1000;
@@ -263,7 +279,7 @@ function markQuestionAsSkipped(index) {
         logAnswer(
             q.section,
             currentSessionId,
-            `${index + 1}/${questions.length}`,
+            `${index + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
             usedHint ? "Yes" : "No",
             "N/A (Skipped)",
             "Skipped",
@@ -279,11 +295,11 @@ function markQuestionAsSkipped(index) {
 
 function showFollowUp(q, isRevisit = false) {
   const followUp = document.getElementById("followUpContainer");
-  // FIX: Dynamically choose the follow-up question text based on which field exists
+  // Dynamically choose the follow-up question text based on which field exists
   const followUpQuestionText = q.followUpCorrect || q.followUpQuestion;
   followUp.innerHTML = `<p>${followUpQuestionText}</p>`;
 
-  // FIX: Dynamically choose the follow-up options based on which field exists
+  // Dynamically choose the follow-up options based on which field exists
   const followUpOptions = q.followUpCorrectOptions || q.followUpOptions;
 
   followUpOptions.forEach((opt, i) => {
@@ -310,11 +326,11 @@ function showFollowUp(q, isRevisit = false) {
   followUp.style.display = "block";
 
   if (isRevisit && q.followUpAnsweredThisTime) {
-        const feedbackParagraph = document.createElement("p");
-        feedbackParagraph.innerText = q.lastFollowUpFeedbackText;
-        feedbackParagraph.classList.add(q.lastFollowUpAnswerWasCorrect ? "correct" : "incorrect");
-        followUp.appendChild(feedbackParagraph);
-        followUp.querySelectorAll("input[name='followUp']").forEach(radio => radio.disabled = true);
+      const feedbackParagraph = document.createElement("p");
+      feedbackParagraph.innerText = q.lastFollowUpFeedbackText;
+      feedbackParagraph.classList.add(q.lastFollowUpAnswerWasCorrect ? "correct" : "incorrect");
+      followUp.appendChild(feedbackParagraph);
+      followUp.querySelectorAll("input[name='followUp']").forEach(radio => radio.disabled = true);
   }
 }
 
@@ -323,7 +339,7 @@ function handleSubmitFollowUp(selectedValue, q, followUpContainer) {
         return;
     }
 
-    // FIX: Dynamically choose the correct follow-up answer field
+    // Dynamically choose the correct follow-up answer field
     const correct = selectedValue === (q.followUpCorrectAnswer || q.followUpAnswer);
     const feedbackText = correct ? "✅ Correct!" : "❌ Incorrect." ;
     const feedbackParagraph = document.createElement("p");
@@ -331,7 +347,7 @@ function handleSubmitFollowUp(selectedValue, q, followUpContainer) {
     feedbackParagraph.classList.add(correct ? "correct" : "incorrect");
     followUpContainer.appendChild(feedbackParagraph);
 
-    followUpAnswered.add(q.id);
+    followUpAnswered.add(q.id); // Mark follow-up for this question ID as answered
 
     q.followUpAnsweredThisTime = true;
     q.lastFollowUpFeedbackText = feedbackText;
@@ -343,17 +359,16 @@ function handleSubmitFollowUp(selectedValue, q, followUpContainer) {
     logAnswer(
         q.section,
         currentSessionId,
-        `${currentQuestionIndex + 1}/${questions.length} (Follow-up)`,
-        "N/A",
-        selectedValue,
-        correct ? "Correct" : "Incorrect",
-        "N/A",
-        feedbackText,
-        selectedValue,
-        "N/A",
-        `${q.id}_followup`,
-        // FIX: Use the correct follow-up question text
-        q.followUpCorrect || q.followUpQuestion 
+        `${currentQuestionIndex + 1}/${selectedSectionQuestions.length} (Follow-up)`, // Use selectedSectionQuestions.length
+        "N/A", // Hint status for main question, N/A for follow-up log
+        selectedValue, // Answer given for follow-up
+        correct ? "Correct" : "Incorrect", // Correct status for follow-up
+        "N/A", // Time spent for follow-up
+        feedbackText, // Feedback for follow-up
+        selectedValue, // This will be the followupAnswer column in your sheet
+        "N/A", // Overall score is for final log
+        `${q.id}_followup`, // Unique ID for follow-up log
+        q.followUpCorrect || q.followUpQuestion // Follow-up question text
     );
 }
 
@@ -366,8 +381,8 @@ function logAnswer(
     correctStatus,
     timeSpent,
     feedbackText,
-    followupAnswerValue,
-    overallScore,
+    followupAnswerValue, // This parameter will receive the actual follow-up answer when logging main question, and its own selectedValue for follow-up log
+    overallScore, // This parameter is relevant for final log only
     questionIdInternal,
     questionTextContent
 ) {
@@ -375,6 +390,7 @@ function logAnswer(
     action: "logQuestion",
     email: userEmail,
     sessionId: sessionId,
+    section: section, // Added section to payload
     questionNumberDisplay: questionNumberDisplay,
     questionId: questionIdInternal,
     questionText: questionTextContent,
@@ -384,7 +400,7 @@ function logAnswer(
     timeSpent: timeSpent,
     feedbackShown: feedbackText,
     followupAnswer: followupAnswerValue,
-    overallScore: overallScore,
+    overallScore: overallScore, // Will be "N/A" for question logs, actual score for final log
     timestamp: new Date().toISOString()
   };
 
@@ -437,7 +453,7 @@ function showScore() {
   const scoreScreen = document.getElementById("scoreScreen");
   const finalScore = document.getElementById("finalScore");
   
-  const totalQuestions = questions.length;
+  const totalQuestions = selectedSectionQuestions.length; // Use selectedSectionQuestions.length for score
   const percentage = totalQuestions > 0 ? ((correctCount / totalQuestions) * 100).toFixed(2) : 0;
 
   finalScore.innerHTML = `
@@ -458,20 +474,13 @@ function showScore() {
     incorrectCount = 0;
     usedHint = false;
     followUpAnswered.clear();
-    questions = [];
-    selectedSectionQuestions = [];
+    selectedSectionQuestions = []; // Clear questions for previous section
     currentSessionId = "";
 
     document.getElementById("scoreScreen").style.display = "none";
     document.getElementById("emailInput").value = "";
     document.getElementById("emailScreen").style.display = "none";
     document.getElementById("home").style.display = "block";
-    fetch("questions.json")
-      .then(res => res.json())
-      .then(data => {
-        questions = data;
-        showSectionList();
-      })
-      .catch(err => console.error("Failed to re-load questions.json:", err));
+    showSectionList();
   });
 }
