@@ -10,7 +10,7 @@ let selectedSectionQuestions = []; // Holds questions for the currently selected
 let currentSessionId = ""; // To store a unique ID for the current quiz session
 
 // Make sure this URL is correct and active for your Google Apps Script
-const googleAppsScriptURL = "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbwLuBiKABEFy2SJM7dcymQ13jdwi-omYDd39P8F1YGK71a7jrUK0Z5t3_yRpvTeaVwtRg/exec";
+const googleAppsScriptURL = "https://script.google.com/macros/s/AKfycbwLuBiKABEFy2SJM7dcymQ13jdwi-omYDd39P8F1YGK71a7jrUK0Z5t3_yRpvTeaVwtRg/exec";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("questions.json")
@@ -418,7 +418,7 @@ function logFinalScore(finalCorrectCount, finalIncorrectCount, totalQuestions, p
     fetch(googleAppsScriptURL, {
         method: "POST",
         body: JSON.stringify(payload),
-        headers: { "Content-Type": "text/plain;charset=utf-8" }
+        headers: { "Content-Type": "application/json" }
     })
     .then(response => response.json())
     .then(data => {
