@@ -279,7 +279,7 @@ function markQuestionAsSkipped(index) {
         logAnswer(
             q.section,
             currentSessionId,
-            `${index + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
+            `${selectedSectionQuestions.findIndex(q2 => q2.id === q.id) + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
             usedHint ? "Yes" : "No",
             "N/A (Skipped)",
             "Skipped",
@@ -359,7 +359,7 @@ function handleSubmitFollowUp(selectedValue, q, followUpContainer) {
     logAnswer(
         q.section,
         currentSessionId,
-        `${currentQuestionIndex + 1}/${selectedSectionQuestions.length} (Follow-up)`, // Use selectedSectionQuestions.length
+        `${selectedSectionQuestions.findIndex(q2 => q2.id === q.id) + 1}/${selectedSectionQuestions.length}(Follow-up)`, // Use selectedSectionQuestions.length
         "N/A", // Hint status for main question, N/A for follow-up log
         selectedValue, // Answer given for follow-up
         correct ? "Correct" : "Incorrect", // Correct status for follow-up
