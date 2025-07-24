@@ -10,7 +10,7 @@ let selectedSectionQuestions = []; // Holds questions for the currently selected
 let currentSessionId = ""; // To store a unique ID for the current quiz session
 
 // Make sure this URL is correct and active for your Google Apps Script
-const googleAppsScriptURL = "https://script.google.com/macros/s/AKfycbwLuBiKABEFy2SJM7dcymQ13jdwi-omYDd39P8F1YGK71a7jrUK0Z5t3_yRpvTeaVwtRg/exec";
+const googleAppsScriptURL = "https://script.google.com/macros/s/AKfycbyhwDLRvLVO7YgwInO8Y29B9OrwZaUgTZ2lElvJMemouw3_o-2u83F-8HK2FhgiOAoCPQ/exec";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("questions.json")
