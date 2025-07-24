@@ -421,16 +421,12 @@ function logAnswer(
   .catch(err => console.error("Log failed (network error or script issue):", err));
 }
 
-function logFinalScore(finalCorrectCount, finalIncorrectCount, totalQuestions, percentage) {
+function logFinalScore(email, sessionId, overallScore) {
     const payload = {
-        action: "logFinalScore",
-        email: userEmail,
-        sessionId: currentSessionId,
-        totalQuestions: totalQuestions,
-        correctCount: finalCorrectCount,
-        incorrectCount: finalIncorrectCount,
-        percentageScore: percentage,
-        timestamp: new Date().toISOString()
+        email,
+        sessionId,
+        overallScore,  // ✅ Make sure this is something like "7 / 10 (70%)"
+        action: "logFinalScore"
     };
 
     fetch(googleAppsScriptURL, {
