@@ -467,20 +467,7 @@ function showScore() {
     <button id="restartQuizButton">Take Another Quiz</button>
   `;
   scoreScreen.style.display = "block";
-  logAnswer(
-    "Final", // Section (Column M)
-    currentSessionId,
-    "Final Score", // Q#
-    "N/A", // Used Hint
-    "N/A", // Answer Given
-    "N/A", // Correct
-    "N/A", // Time Spent
-    `✅ Final Score: ${correctCount} / ${totalQuestions} (${percentage}%)`, // Feedback
-    "N/A", // Follow-up
-    `${correctCount} / ${totalQuestions} (${percentage}%)`, // Result column (K)
-    "FINAL_SCORE", // Question ID
-    "Final Score" // Question Text
-  );
+
 
   logFinalScore(correctCount, incorrectCount, totalQuestions, percentage);
 
