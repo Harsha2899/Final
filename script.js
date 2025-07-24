@@ -80,7 +80,8 @@ function showSectionList() {
     3: "Sentence Fragments",
     4: "What is a Run-on Sentence",
     5: "How to fix Run-on Sentence",
-    6: "Pronoun Agreement"
+    6: "Pronoun Agreement",
+    7: "Verb Tense"
   };
 
   sectionContainer.innerHTML = "";
