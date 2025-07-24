@@ -1953,5 +1953,578 @@
     ],
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Remember the simple rule for \"who\" vs. \"whom\": If you can replace it with \"he/she\" (subject), use \"who.\" If you can replace it with \"him/her\" (object), use \"whom.\""
+  },
+  {
+    "id": "q1",
+    "section": 7,
+    "question": "By the time the new art exhibit opens next month, the museum _______ a major renovation for over six months.",
+    "options": [
+      "A) has been undergoing",
+      "B) will have been undergoing",
+      "C) had undergone",
+      "D) is undergoing"
+    ],
+    "correctAnswer": "B",
+    "hint": "Consider the timing of the events: a future point (opening) and an action that will have been in progress leading up to that point.",
+    "explanationCorrect": "The correct answer is 'will have been undergoing' (future perfect continuous). This tense is used to describe an action that will continue up to a certain point in the future. The renovation started in the past and will still be ongoing when the exhibit opens next month.",
+    "explanationIncorrectA": "Option A, 'has been undergoing' (present perfect continuous), indicates an action that started in the past and continues to the present, not a future point.",
+    "explanationIncorrectC": "Option C, 'had undergone' (past perfect), describes an action completed before a specific point in the past, which doesn't fit the future context.",
+    "explanationIncorrectD": "Option D, 'is undergoing' (present continuous), describes an action happening now, not an action that will have been in progress up to a future event.",
+    "followUpCorrect": "Which sentence correctly uses the future perfect continuous tense?",
+    "followUpCorrectOptions": [
+      "A) She has been studying for hours when I called.",
+      "B) They will have been living in Paris for ten years by the end of this year.",
+      "C) We were playing soccer all afternoon yesterday.",
+      "D) He works tirelessly on his projects."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Review the uses of future perfect continuous tense, especially how it describes actions continuing up to a future point."
+  },
+  {
+    "id": "q2",
+    "section": 7,
+    "question": "Before she moved to the city, Maria _______ her entire life in a small rural town.",
+    "options": [
+      "A) spent",
+      "B) spends",
+      "C) had spent",
+      "D) will spend"
+    ],
+    "correctAnswer": "C",
+    "hint": "Think about which action happened first in the past.",
+    "explanationCorrect": "The correct answer is 'had spent' (past perfect). The past perfect tense is used to describe an action that was completed before another action in the past. Maria spending her life in the town happened before she moved to the city.",
+    "explanationIncorrectA": "Option A, 'spent' (simple past), could be used if there wasn't a clear sequence of two past events.",
+    "explanationIncorrectB": "Option B, 'spends' (simple present), refers to a habitual action in the present.",
+    "explanationIncorrectD": "Option D, 'will spend' (simple future), refers to an action that will happen in the future.",
+    "followUpCorrect": "In which scenario would you typically use the simple past tense instead of the past perfect?",
+    "followUpCorrectOptions": [
+      "A) When describing an action completed before another past action.",
+      "B) When describing a single completed action in the past without reference to another past event.",
+      "C) When describing an ongoing action that started in the past and continues to the present.",
+      "D) When describing a future event."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Focus on understanding the sequence of events when using past tenses. The past perfect clarifies which action happened earlier."
+  },
+  {
+    "id": "q3",
+    "section": 7,
+    "question": "Scientists _______ for years to find a cure for the common cold, but they have not yet succeeded.",
+    "options": [
+      "A) had been trying",
+      "B) have been trying",
+      "C) are trying",
+      "D) tried"
+    ],
+    "correctAnswer": "B",
+    "hint": "The phrase 'but they have not yet succeeded' indicates an ongoing effort that started in the past and continues to the present.",
+    "explanationCorrect": "The correct answer is 'have been trying' (present perfect continuous). This tense is used to describe an action that began in the past, continues into the present, and may continue into the future. The effort to find a cure started in the past and is still ongoing, with no success yet.",
+    "explanationIncorrectA": "Option A, 'had been trying' (past perfect continuous), would imply the trying stopped before a specific past point, which contradicts 'have not yet succeeded'.",
+    "explanationIncorrectC": "Option C, 'are trying' (present continuous), focuses only on the present moment, not the duration from the past.",
+    "explanationIncorrectD": "Option D, 'tried' (simple past), implies the action is completed, which is incorrect given 'have not yet succeeded'.",
+    "followUpCorrect": "Which of the following sentences correctly uses the present perfect continuous tense?",
+    "followUpCorrectOptions": [
+      "A) She studied for her exams last night.",
+      "B) They have been building that bridge for three years now.",
+      "C) He will have finished his work by noon.",
+      "D) We walked to the store every day."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Review the present perfect continuous tense. It's crucial for expressing actions that began in the past and continue to the present."
+  },
+  {
+    "id": "q4",
+    "section": 7,
+    "question": "Last summer, while I _______ on vacation, my neighbor _______ my plants every day.",
+    "options": [
+      "A) was; watered",
+      "B) am; waters",
+      "C) had been; was watering",
+      "D) were; water"
+    ],
+    "correctAnswer": "A",
+    "hint": "Consider two simultaneous actions in the past. One was ongoing, and the other was a repeated or habitual action during that period.",
+    "explanationCorrect": "The correct answer is 'was; watered'. 'Was' (past continuous) is used for the ongoing action of being on vacation. 'Watered' (simple past) describes the repeated action of the neighbor watering the plants during that past period.",
+    "explanationIncorrectB": "Option B uses present tenses, which don't fit the 'last summer' context.",
+    "explanationIncorrectC": "Option C, while using past tenses, is overly complex and implies a different relationship between the actions than the simple ongoing and repeated actions.",
+    "explanationIncorrectD": "Option D uses incorrect subject-verb agreement for 'I' ('were') and the wrong tense for 'water'.",
+    "followUpCorrect": "When is the past continuous tense typically used?",
+    "followUpCorrectOptions": [
+      "A) To describe an action completed in the past.",
+      "B) To describe an action that was ongoing at a specific time in the past.",
+      "C) To describe a habitual action in the present.",
+      "D) To describe an action that will be completed in the future."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Pay attention to how different past tenses are used to show the relationship between actions happening in the past, especially simultaneous or sequential events."
+  },
+  {
+    "id": "q5",
+    "section": 7,
+    "question": "If I _______ more time, I _______ learn a new language.",
+    "options": [
+      "A) had; would",
+      "B) have; will",
+      "C) had; will",
+      "D) have; would"
+    ],
+    "correctAnswer": "A",
+    "hint": "This is a conditional sentence. Consider the type of condition being expressed – a hypothetical situation.",
+    "explanationCorrect": "The correct answer is 'had; would'. This is an example of a second conditional sentence, which describes an unreal or hypothetical situation in the present or future. The structure is 'If + simple past, would + base form of verb'.",
+    "explanationIncorrectB": "Option B uses simple present and simple future, forming a first conditional, which is for real or likely situations.",
+    "explanationIncorrectC": "Option C mixes the tenses incorrectly for a second conditional.",
+    "explanationIncorrectD": "Option D also mixes the tenses incorrectly for a second conditional.",
+    "followUpCorrect": "Which of the following describes a third conditional sentence?",
+    "followUpCorrectOptions": [
+      "A) If it rains, we will stay home.",
+      "B) If I were you, I would take the offer.",
+      "C) If she had studied, she would have passed the exam.",
+      "D) If you heat water, it boils."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Review the different types of conditional sentences (Type 1, Type 2, Type 3) and their corresponding verb tenses."
+  },
+  {
+    "id": "q6",
+    "section": 7,
+    "question": "Every morning, the baker _______ fresh bread for the neighborhood.",
+    "options": [
+      "A) baked",
+      "B) bakes",
+      "C) is baking",
+      "D) will bake"
+    ],
+    "correctAnswer": "B",
+    "hint": "The phrase 'Every morning' indicates a habitual action.",
+    "explanationCorrect": "The correct answer is 'bakes' (simple present). The simple present tense is used to describe habitual actions, routines, or general truths. 'Every morning' clearly indicates a routine.",
+    "explanationIncorrectA": "Option A, 'baked' (simple past), describes an action that happened in the past and is completed.",
+    "explanationIncorrectC": "Option C, 'is baking' (present continuous), describes an action happening at the moment of speaking.",
+    "explanationIncorrectD": "Option D, 'will bake' (simple future), describes an action that will happen in the future.",
+    "followUpCorrect": "Which sentence below uses the simple present tense correctly for a habitual action?",
+    "followUpCorrectOptions": [
+      "A) He is reading a book right now.",
+      "B) They went to the beach yesterday.",
+      "C) The sun rises in the east.",
+      "D) She will visit her grandmother next week."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Review the basic uses of the simple present tense, especially for routines and facts."
+  },
+  {
+    "id": "q7",
+    "section": 7,
+    "question": "Right now, I _______ an interesting article about renewable energy.",
+    "options": [
+      "A) read",
+      "B) am reading",
+      "C) have read",
+      "D) will read"
+    ],
+    "correctAnswer": "B",
+    "hint": "The phrase 'Right now' signals an action happening at the moment of speaking.",
+    "explanationCorrect": "The correct answer is 'am reading' (present continuous). The present continuous tense is used to describe actions happening at the moment of speaking or temporary actions.",
+    "explanationIncorrectA": "Option A, 'read' (simple present), refers to habitual actions or facts.",
+    "explanationIncorrectC": "Option C, 'have read' (present perfect), indicates an action completed at an unspecified time in the past, or one that started in the past and continues to the present.",
+    "explanationIncorrectD": "Option D, 'will read' (simple future), refers to an action that will happen later.",
+    "followUpCorrect": "When would you typically use the present continuous tense?",
+    "followUpCorrectOptions": [
+      "A) For general truths.",
+      "B) For actions happening at the moment of speaking.",
+      "C) For completed past actions.",
+      "D) For future plans that are not yet confirmed."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Understand that 'right now' is a key indicator for the present continuous tense."
+  },
+  {
+    "id": "q8",
+    "section": 7,
+    "question": "By the time we arrived at the concert, the band _______ their first song.",
+    "options": [
+      "A) started",
+      "B) had started",
+      "C) was starting",
+      "D) starts"
+    ],
+    "correctAnswer": "B",
+    "hint": "Two past actions are mentioned. Which one happened *before* the other?",
+    "explanationCorrect": "The correct answer is 'had started' (past perfect). The past perfect tense is used to describe an action that was completed before another action in the past. The band's starting the song occurred before we arrived.",
+    "explanationIncorrectA": "Option A, 'started' (simple past), suggests the two actions happened simultaneously or in quick succession without a clear 'before' relationship.",
+    "explanationIncorrectC": "Option C, 'was starting' (past continuous), would mean the band was in the process of starting as we arrived, which is a different nuance from having already begun.",
+    "explanationIncorrectD": "Option D, 'starts' (simple present), is incorrect for a past event.",
+    "followUpCorrect": "If the sentence were 'When we arrived at the concert, the band was starting their first song,' what would that imply about the timing?",
+    "followUpCorrectOptions": [
+      "A) The band finished the song before we arrived.",
+      "B) The band began the song exactly as we arrived.",
+      "C) The band was in the process of beginning the song when we arrived.",
+      "D) The band hadn't started yet when we arrived."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Practice identifying which past action occurred first when multiple past events are described."
+  },
+  {
+    "id": "q9",
+    "section": 7,
+    "question": "I _______ to London many times, but I still haven't visited the Tower of London.",
+    "options": [
+      "A) went",
+      "B) have gone",
+      "C) have been",
+      "D) will go"
+    ],
+    "correctAnswer": "C",
+    "hint": "The sentence implies experience or visits to a place, with the speaker no longer there, but the experience is relevant to the present.",
+    "explanationCorrect": "The correct answer is 'have been' (present perfect). 'Have been to' is used to talk about visiting a place and returning. It emphasizes the experience of having visited, which is relevant to the current statement about not having visited a specific landmark yet.",
+    "explanationIncorrectA": "Option A, 'went' (simple past), is used for a completed action in the past where the exact time might be specified or understood, but it doesn't carry the implication of returning or ongoing relevance to the present.",
+    "explanationIncorrectB": "Option B, 'have gone' (present perfect), implies that the person is still there or on their way and hasn't returned.",
+    "explanationIncorrectD": "Option D, 'will go' (simple future), refers to a future action.",
+    "followUpCorrect": "What is the key difference between 'have been to' and 'have gone to'?",
+    "followUpCorrectOptions": [
+      "A) 'Have been to' means you are still there; 'have gone to' means you returned.",
+      "B) 'Have been to' means you returned; 'have gone to' means you are still there or on your way.",
+      "C) There is no difference; they are interchangeable.",
+      "D) 'Have been to' is informal; 'have gone to' is formal."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Distinguish carefully between 'have been to' and 'have gone to' as they carry different implications about presence and return."
+  },
+  {
+    "id": "q10",
+    "section": 7,
+    "question": "If the weather _______ good tomorrow, we _______ hiking.",
+    "options": [
+      "A) is; will go",
+      "B) was; would go",
+      "C) had been; would have gone",
+      "D) is; go"
+    ],
+    "correctAnswer": "A",
+    "hint": "This is a real possibility in the future. Which conditional type fits?",
+    "explanationCorrect": "The correct answer is 'is; will go'. This is a first conditional sentence, used to express a real or very likely condition and its probable result in the future. The structure is 'If + simple present, will + base form of verb'.",
+    "explanationIncorrectB": "Option B is a second conditional, used for hypothetical or unlikely situations.",
+    "explanationIncorrectC": "Option C is a third conditional, used for hypothetical situations in the past (regrets/missed opportunities).",
+    "explanationIncorrectD": "Option D uses the simple present in both clauses, which is typically for zero conditional (general truths).",
+    "followUpCorrect": "Which conditional type is used for general truths or scientific facts?",
+    "followUpCorrectOptions": [
+      "A) First conditional",
+      "B) Second conditional",
+      "C) Third conditional",
+      "D) Zero conditional"
+    ],
+    "followUpCorrectAnswer": "D",
+    "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
+  },
+  {
+    "id": "q11",
+    "section": 7,
+    "question": "Despite the team's best efforts, they _______ to score a single goal throughout the entire game, which _______ their chances of winning the championship.",
+    "options": [
+      "A) failed; hurt",
+      "B) were failing; hurt",
+      "C) had failed; was hurting",
+      "D) have failed; hurts"
+    ],
+    "correctAnswer": "A",
+    "hint": "Both actions occurred and were completed in the past. Look for the most direct and simple past tense usage.",
+    "explanationCorrect": "The correct answer is 'failed; hurt' (simple past for both). Both actions are completed events in the past. The team's failure to score and the impact on their chances both happened and concluded during the game. The simple past is appropriate for describing completed actions at a specific time in the past.",
+    "explanationIncorrectB": "Option B, 'were failing' (past continuous), suggests an ongoing action, but the context implies a completed lack of scoring over the entire game. 'Hurt' is correct, but 'were failing' doesn't fit as well.",
+    "explanationIncorrectC": "Option C, 'had failed' (past perfect), would imply the failure happened *before* some other past event, which isn't specified here as distinct from the game itself. 'Was hurting' (past continuous) is also less precise for the direct consequence.",
+    "explanationIncorrectD": "Option D, 'have failed' (present perfect), implies a connection to the present, which isn't the primary focus of the past game. 'Hurts' (simple present) is incorrect as the impact was in the past.",
+    "followUpCorrect": "When is the simple past tense the most appropriate choice for describing a past event?",
+    "followUpCorrectOptions": [
+      "A) When an action started in the past and continues to the present.",
+      "B) When describing an action completed at a specific or understood time in the past.",
+      "C) When an action was ongoing at a specific time in the past.",
+      "D) When an action was completed before another past action."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Remember that sometimes the simplest past tense is the most accurate. Avoid overcomplicating with perfect or continuous tenses when a simple past will do for completed actions."
+  },
+  {
+    "id": "q12",
+    "section": 7,
+    "question": "Although the ancient manuscript _______ for centuries, its true significance _______ until recent archaeological discoveries.",
+    "options": [
+      "A) existed; was not realizing",
+      "B) had existed; was not realized",
+      "C) has existed; is not realized",
+      "D) exists; will not be realized"
+    ],
+    "correctAnswer": "B",
+    "hint": "The sentence describes two actions in the past. One action (existence) continued up to another point in the past (discovery and realization), which happened passively.",
+    "explanationCorrect": "The correct answer is 'had existed; was not realized'. 'Had existed' (past perfect) correctly indicates that the manuscript's existence spanned a period up to the point of discovery. 'Was not realized' (past passive) is appropriate because the significance *was* realized by someone, not that it realized itself. The overall context is past events.",
+    "explanationIncorrectA": "Option A, 'existed' (simple past), is plausible for the first blank, but 'was not realizing' (past continuous active) is grammatically incorrect for 'significance' as it cannot 'realize' itself. It needs to be in the passive voice.",
+    "explanationIncorrectC": "Option C, 'has existed' (present perfect), and 'is not realized' (present passive) indicate relevance to the present, which contradicts 'until recent archaeological discoveries,' suggesting a completed past event.",
+    "explanationIncorrectD": "Option D, 'exists' (simple present), and 'will not be realized' (future passive), places the actions in the present and future, not the past.",
+    "followUpCorrect": "In the phrase 'was not realized,' why is the passive voice used?",
+    "followUpCorrectOptions": [
+      "A) To emphasize who performed the action.",
+      "B) Because the subject ('significance') is receiving the action, not performing it.",
+      "C) To make the sentence sound more formal.",
+      "D) It is an error; the active voice should be used."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "This question tests both verb tense and voice (active/passive). Ensure you understand when to use the passive voice, especially when the subject receives the action."
+  },
+  {
+    "id": "q13",
+    "section": 7,
+    "question": "Since the new policy _______ into effect last month, the company's productivity _______ significantly.",
+    "options": [
+      "A) came; has increased",
+      "B) has come; increased",
+      "C) came; increased",
+      "D) comes; increases"
+    ],
+    "correctAnswer": "A",
+    "hint": "One action is a specific past event, and the other is a change that started then and continues to or affects the present.",
+    "explanationCorrect": "The correct answer is 'came; has increased'. 'Came' (simple past) is correct for the policy going into effect at a specific past time ('last month'). 'Has increased' (present perfect) is correct for describing a change that started in the past (since the policy came) and continues to or has a result in the present.",
+    "explanationIncorrectB": "Option B, 'has come' (present perfect), is less precise for a specific past event like 'last month'. 'Increased' (simple past) would imply the increase is also a completed past event without ongoing relevance.",
+    "explanationIncorrectC": "Option C, 'came; increased' (simple past for both), suggests both actions are completed and unrelated to the present, which contradicts 'since' and the implied ongoing effect.",
+    "explanationIncorrectD": "Option D, 'comes; increases' (simple present for both), describes habitual actions or general truths, not specific past events and their present consequences.",
+    "followUpCorrect": "Which conjunction or phrase typically signals the use of the present perfect tense?",
+    "followUpCorrectOptions": [
+      "A) Yesterday",
+      "B) Last week",
+      "C) Since",
+      "D) At this moment"
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Pay close attention to time markers like 'since' which often connect a past event to its ongoing effect in the present, requiring the present perfect."
+  },
+  {
+    "id": "q14",
+    "section": 7,
+    "question": "The archaeologist, who _______ over two decades studying ancient civilizations, _______ a groundbreaking discovery last week.",
+    "options": [
+      "A) had spent; made",
+      "B) has spent; made",
+      "C) spent; had made",
+      "D) spends; makes"
+    ],
+    "correctAnswer": "B",
+    "hint": "The first clause describes an ongoing duration of study up to the present or recent past, relevant to the recent discovery. The second action is a specific, completed past event.",
+    "explanationCorrect": "The correct answer is 'has spent; made'. 'Has spent' (present perfect) is appropriate for describing an activity that started in the past and continues up to the present, or whose duration is relevant to the present ('over two decades studying...'). The act of studying is still true or has just ceased. 'Made' (simple past) is correct for the specific, completed action of making a discovery 'last week'.",
+    "explanationIncorrectA": "Option A, 'had spent' (past perfect), would imply the spending of two decades was completed before *another* past action, which is not the primary relationship here. If the implication was that he finished his studies *before* some other past event, it might fit, but 'last week' points to a recent, completed action.",
+    "explanationIncorrectC": "Option C, 'spent' (simple past), for the first blank does not convey the sense of duration leading up to the present. 'Had made' (past perfect) is incorrect as the discovery is a recent past event, not one that happened before another past event.",
+    "explanationIncorrectD": "Option D uses present tenses, which are incorrect for completed past actions.",
+    "followUpCorrect": "When would 'had spent' (past perfect) be a more suitable choice for the first blank?",
+    "followUpCorrectOptions": [
+      "A) If the sentence ended with 'by the time he retired'.",
+      "B) If the sentence was describing his current work.",
+      "C) If the sentence referred to a future event.",
+      "D) If the sentence was a general truth."
+    ],
+    "followUpCorrectAnswer": "A",
+    "followUpIncorrect": "This question requires a nuanced understanding of how present perfect (for relevance to present) and past perfect (for sequence in the past) function alongside simple past."
+  },
+  {
+    "id": "q15",
+    "section": 7,
+    "question": "If only I _______ harder for the exam, I _______ a better grade.",
+    "options": [
+      "A) had studied; would have gotten",
+      "B) studied; would get",
+      "C) study; will get",
+      "D) have studied; would get"
+    ],
+    "correctAnswer": "A",
+    "hint": "This sentence expresses regret about a past situation. Which conditional type is used for hypothetical past situations?",
+    "explanationCorrect": "The correct answer is 'had studied; would have gotten'. This is a third conditional sentence, used to express hypothetical situations in the past (regrets or missed opportunities). The structure is 'If + past perfect, would have + past participle'. 'If only' often introduces this type of hypothetical past situation.",
+    "explanationIncorrectB": "Option B is a second conditional, used for hypothetical situations in the present or future.",
+    "explanationIncorrectC": "Option C is a first conditional, used for real or likely situations in the future.",
+    "explanationIncorrectD": "Option D incorrectly mixes present perfect with the second conditional structure.",
+    "followUpCorrect": "What is the primary function of a third conditional sentence?",
+    "followUpCorrectOptions": [
+      "A) To state general truths.",
+      "B) To express a real possibility in the future.",
+      "C) To talk about hypothetical situations in the past and their consequences.",
+      "D) To describe an ongoing action in the present."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Master the third conditional, especially when dealing with expressions of regret or counterfactual pasts."
+  },
+  {
+    "id": "q16",
+    "section": 7,
+    "question": "By the time he graduates next year, Mark _______ his academic research for nearly five years.",
+    "options": [
+      "A) was conducting",
+      "B) has conducted",
+      "C) will have been conducting",
+      "D) conducted"
+    ],
+    "correctAnswer": "C",
+    "hint": "The action of conducting research will continue up to a specific future point (graduation), indicating a duration.",
+    "explanationCorrect": "The correct answer is 'will have been conducting' (future perfect continuous). This tense describes an action that will continue up to a specific point in the future (his graduation) and emphasizes the duration of that action ('for nearly five years').",
+    "explanationIncorrectA": "Option A, 'was conducting' (past continuous), describes an action ongoing in the past.",
+    "explanationIncorrectB": "Option B, 'has conducted' (present perfect), describes actions completed at an unspecified past time or continuing to the present.",
+    "explanationIncorrectD": "Option D, 'conducted' (simple past), describes a completed action in the past.",
+    "followUpCorrect": "Provide another example of a sentence correctly using the future perfect continuous tense.",
+    "followUpCorrectOptions": [
+      "A) She will finish her novel by December.",
+      "B) They are building a new house.",
+      "C) By 2030, we will have been living in this city for twenty years.",
+      "D) He had been waiting for an hour when I arrived."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
+  },
+  {
+    "id": "q17",
+    "section": 7,
+    "question": "The ancient city, which _______ abandoned for centuries, _______ only recently by archaeologists.",
+    "options": [
+      "A) had been; was discovered",
+      "B) has been; is discovered",
+      "C) was; discovered",
+      "D) had been; discovered"
+    ],
+    "correctAnswer": "A",
+    "hint": "One action (abandonment) happened before another past action (discovery). The discovery itself was a passive event.",
+    "explanationCorrect": "The correct answer is 'had been; was discovered'. 'Had been' (past perfect) is correct for the state of being abandoned, which occurred and continued *before* the discovery. 'Was discovered' (past passive) is correct because the city *was* discovered by archaeologists; it didn't discover itself.",
+    "explanationIncorrectB": "Option B uses present tenses, which are incorrect for a historical discovery that 'recently' happened.",
+    "explanationIncorrectC": "Option C, 'was' (simple past), is less precise for the 'abandoned for centuries' duration that preceded the discovery. 'Discovered' (active voice) is incorrect as the city is the object of the discovery, not the subject performing it.",
+    "explanationIncorrectD": "Option D, 'had been' is correct for the first blank, but 'discovered' (active voice) is incorrect for the second, as the city did not perform the action of discovering.",
+    "followUpCorrect": "Why is the passive voice crucial in the second part of the sentence?",
+    "followUpCorrectOptions": [
+      "A) To emphasize the archaeologist.",
+      "B) Because the subject ('significance') is receiving the action, not performing it.",
+      "C) To make the sentence more complex.",
+      "D) It is a matter of stylistic choice rather than grammar."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "This is a tricky one that combines past perfect and passive voice. Ensure you understand sequence of events in the past and when to use passive voice."
+  },
+  {
+    "id": "q18",
+    "section": 7,
+    "question": "Even though she _______ for hours, Sarah still felt energetic enough to go for a run.",
+    "options": [
+      "A) had been working",
+      "B) has been working",
+      "C) worked",
+      "D) was working"
+    ],
+    "correctAnswer": "A",
+    "hint": "Her working happened for a duration before another past action (feeling energetic).",
+    "explanationCorrect": "The correct answer is 'had been working' (past perfect continuous). This tense describes an action that continued for a period in the past, up to another specific point in the past. Sarah's working for hours was an ongoing activity that concluded or paused right before she felt energetic enough to run.",
+    "explanationIncorrectB": "Option B, 'has been working' (present perfect continuous), would imply the working continued up to the present, not a point in the past.",
+    "explanationIncorrectC": "Option C, 'worked' (simple past), doesn't convey the duration of the action ('for hours') as clearly as the continuous form.",
+    "explanationIncorrectD": "Option D, 'was working' (past continuous), describes an action ongoing at a specific point in the past, but 'had been working' better emphasizes the duration leading up to the subsequent event.",
+    "followUpCorrect": "What is the key difference in meaning between 'She worked for hours' and 'She had been working for hours'?",
+    "followUpCorrectOptions": [
+      "A) No difference, they are interchangeable.",
+      "B) The first implies a single, completed action; the second emphasizes duration up to a specific past point.",
+      "C) The first refers to the future; the second to the past.",
+      "D) The first is formal; the second is informal."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Focus on the nuance of the past perfect continuous. It's used when an action *was ongoing* for a duration *before another past event*."
+  },
+  {
+    "id": "q19",
+    "section": 7,
+    "question": "The economist predicted that by the end of the decade, artificial intelligence _______ many industries.",
+    "options": [
+      "A) transformed",
+      "B) will have transformed",
+      "C) is transforming",
+      "D) has transformed"
+    ],
+    "correctAnswer": "B",
+    "hint": "The action of transformation will be completed by a specific point in the future ('by the end of the decade').",
+    "explanationCorrect": "The correct answer is 'will have transformed' (future perfect). This tense is used to describe an action that will be completed by a certain time in the future. The transformation will be finished by the end of the decade.",
+    "explanationIncorrectA": "Option A, 'transformed' (simple past), is incorrect as it refers to a past action.",
+    "explanationIncorrectC": "Option C, 'is transforming' (present continuous), describes an action happening now.",
+    "explanationIncorrectD": "Option D, 'has transformed' (present perfect), indicates an action completed at an unspecified time in the past or continuing to the present.",
+    "followUpCorrect": "Create a sentence using the future perfect tense to describe an action that will be completed by next month.",
+    "followUpCorrectOptions": [
+      "A) I am going to paint the house next month.",
+      "B) By next month, I will have painted the entire house.",
+      "C) I painted the house last month.",
+      "D) I have been painting the house since last month."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Practice using the future perfect tense to describe actions that will be finished before a specified future time."
+  },
+  {
+    "id": "q20",
+    "section": 7,
+    "question": "Before the invention of the internet, people _______ primarily on libraries and physical books for research.",
+    "options": [
+      "A) relied",
+      "B) have relied",
+      "C) had relied",
+      "D) were relying"
+    ],
+    "correctAnswer": "A",
+    "hint": "This describes a habitual action or state that existed consistently in the past, before a specific past event.",
+    "explanationCorrect": "The correct answer is 'relied' (simple past). The simple past tense is appropriate here to describe a habitual or continuous action that occurred over a period in the past, up until the specific past event of the internet's invention. While 'had relied' could be argued for emphasizing that it happened *before* the invention, 'relied' is simpler and equally accurate for describing a past state of affairs.",
+    "explanationIncorrectB": "Option B, 'have relied' (present perfect), connects the action to the present, which is incorrect as the reliance stopped with the internet's arrival.",
+    "explanationIncorrectC": "Option C, 'had relied' (past perfect), would technically be grammatically correct if the emphasis was strictly on the action finishing *before* another past action. However, 'relied' (simple past) describes the general past state, which is sufficient and often preferred for habitual past actions when the 'before' is clearly implied by context.",
+    "explanationIncorrectD": "Option D, 'were relying' (past continuous), would imply a temporary or ongoing action at a specific point in the past, not a general reliance over a period.",
+    "followUpCorrect": "In what situation might 'had relied' be a more precise choice for the first blank?",
+    "followUpCorrectOptions": [
+      "A) If the sentence was describing current research habits.",
+      "B) If the sentence was comparing research methods *prior to the internet* with methods *after* the internet, within a larger past narrative.",
+      "C) If the sentence was describing a future possibility.",
+      "D) If the sentence was a command."
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Consider whether a simple past tense is sufficient for past habits or states, or if a perfect tense is truly needed to show sequence or duration in relation to *another* past event."
+  },
+  {
+    "id": "q21",
+    "section": 7,
+    "question": "The scientific community _______ tirelessly for years to unravel the mysteries of dark matter, and significant progress _______ just last month.",
+    "options": [
+      "A) had been working; was made",
+      "B) has been working; was made",
+      "C) worked; made",
+      "D) is working; makes"
+    ],
+    "correctAnswer": "B",
+    "hint": "The first action is ongoing up to the present; the second is a specific, completed past action, and it happened passively.",
+    "explanationCorrect": "The correct answer is 'has been working; was made'. 'Has been working' (present perfect continuous) correctly indicates that the scientific community's effort started in the past and continues up to the present. 'Was made' (past passive) is correct for the specific, completed past action of making progress ('just last month'), and progress is the recipient of the action.",
+    "explanationIncorrectA": "Option A, 'had been working' (past perfect continuous), implies the work stopped before some other past event, which isn't the case here. 'Was made' is correct.",
+    "explanationIncorrectC": "Option C, 'worked' (simple past), doesn't convey the ongoing nature of the effort. 'Made' (active voice) is incorrect for 'progress', which is made, not making itself.",
+    "explanationIncorrectD": "Option D, 'is working' (present continuous), doesn't convey the duration from the past. 'Makes' (simple present) is incorrect for a specific past event.",
+    "followUpCorrect": "What is the function of 'just last month' in determining the tense for the second blank?",
+    "followUpCorrectOptions": [
+      "A) It indicates a future action.",
+      "B) It indicates an ongoing action.",
+      "C) It specifies a completed action in the recent past.",
+      "D) It specifies a habitual action."
+    ],
+    "followUpCorrectAnswer": "C",
+    "followUpIncorrect": "This question tests the careful distinction between present perfect continuous (ongoing to present) and simple past (completed at a specific past time), combined with passive voice."
+  },
+  {
+    "id": "q22",
+    "section": 7,
+    "question": "Many experts believe that by the middle of the 21st century, climate change _______ irreversible damage to the planet unless drastic measures _______ soon.",
+    "options": [
+      "A) caused; are taken",
+      "B) will have caused; are taken",
+      "C) is causing; took",
+      "D) has caused; will be taken"
+    ],
+    "correctAnswer": "B",
+    "hint": "The first action is a future completion by a specific time, and the second is a present condition leading to a future outcome, requiring a passive voice.",
+    "explanationCorrect": "The correct answer is 'will have caused; are taken'. 'Will have caused' (future perfect) is used for an action that will be completed by a certain future time ('by the middle of the 21st century'). 'Are taken' (present passive) is used in the 'unless' clause for a general condition in the present that impacts the future, and 'measures' are *taken* (passive voice).",
+    "explanationIncorrectA": "Option A uses past tense for the first blank and an incorrect passive tense for the second.",
+    "explanationIncorrectC": "Option C mixes present continuous with a simple past passive, which doesn't fit the future prediction and conditional structure.",
+    "explanationIncorrectD": "Option D uses present perfect for a future event and future passive for the conditional clause, which is incorrect.",
+    "followUpCorrect": "What type of conditional structure is present in the second part of the sentence ('unless drastic measures are taken soon')?",
+    "followUpCorrectOptions": [
+      "A) Zero conditional",
+      "B) First conditional (implied negative)",
+      "C) Second conditional",
+      "D) Third conditional"
+    ],
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
   }
+
 ]
