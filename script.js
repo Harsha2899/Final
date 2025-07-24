@@ -250,7 +250,7 @@ function handleSubmitAnswer(selectedValue) {
   logAnswer(
     q.section,
     currentSessionId,
-    `${currentQuestionIndex + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
+    `${selectedSectionQuestions.findIndex(q2 => q2.id === q.id) + 1}/${selectedSectionQuestions.length}`, // Use selectedSectionQuestions.length
     usedHint ? "Yes" : "No",
     selectedValue,
     wasCorrect ? "Correct" : "Incorrect",
