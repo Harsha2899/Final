@@ -12,16 +12,18 @@
     <div id="sectionList" class="section-buttons"></div>
   </div>
 
-  <!-- ✅ Section Intro Screen (Newly Added) -->
-  <div id="sectionIntroScreen" style="display: none;">
+  <div id="introScreen" style="display: none;">
     <div id="sectionIntroContent"></div>
-    <button id="continueToQuizButton">Take The Quiz</button>
+    <br>
+    <button id="continueToEmail">Take the Quiz</button>
+    <button id="backToSectionsButton">Back to Sections</button>
   </div>
 
   <div id="emailScreen" style="display: none;">
     <h2>Enter Your Gmail to Begin</h2>
     <input type="email" id="emailInput" placeholder="Enter your Gmail" required />
     <button id="startButton">Start Quiz</button>
+    <button id="backToIntroButton">Back to Intro</button>
   </div>
 
   <div id="questionScreen" style="display: none;">
@@ -43,9 +45,7 @@
   <div id="scoreScreen" style="display: none;">
     <div id="finalScore"></div>
   </div>
-  <div id="introScreen" style="display: none;"></div>
-
-
+  
   <script src="script.js"></script>
 </body>
 </html>
