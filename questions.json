@@ -491,8 +491,8 @@
   },
   {
     "id": "q21",
-    "section": 3,
-    "question": "21. Which of the following is a sentence fragment?",
+    "section": 2,
+    "question": "11. Which of the following is a sentence fragment?",
     "options": [
       "A) The students arrived early.",
       "B) When the bell rang.",
@@ -518,8 +518,8 @@
   },
   {
     "id": "q22",
-    "section": 3,
-    "question": "22. Identify the complete sentence.",
+    "section": 2,
+    "question": "12. Identify the complete sentence.",
     "options": [
       "A) Before the train arrived.",
       "B) The cat jumped onto the table.",
@@ -545,8 +545,8 @@
   },
   {
     "id": "q23",
-    "section": 3,
-    "question": "23. Which of the following is NOT a sentence fragment?",
+    "section": 2,
+    "question": "13. Which of the following is NOT a sentence fragment?",
     "options": [
       "A) Although it was late.",
       "B) The sun was shining.",
@@ -572,8 +572,8 @@
   },
   {
     "id": "q24",
-    "section": 3,
-    "question": "24. Which option below is a fragment?",
+    "section": 2,
+    "question": "14. Which option below is a fragment?",
     "options": [
       "A) He finished the project.",
       "B) Since the sun had set.",
@@ -599,62 +599,8 @@
   },
   {
     "id": "q25",
-    "section": 3,
-    "question": "25. Choose the sentence that is NOT a fragment.",
-    "options": [
-      "A) While the dog barked.",
-      "B) Because she was tired.",
-      "C) He fell asleep quickly.",
-      "D) After we finished lunch."
-    ],
-    "correctAnswer": "C",
-    "hint": "The sentence must stand alone as a complete thought.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a complete sentence with a subject, verb, and complete idea.",
-      "correct_hint": "✅ Good job using the hint! You found the complete sentence (not a fragment).",
-      "incorrect_no_hint": "❌ This is a fragment. Remember, you're looking for what is *not* a fragment.",
-      "incorrect_hint": "❌ You missed it. Dependent clauses and phrases cannot stand alone."
-    },
-    "followUpQuestion": "What makes 'He fell asleep quickly' a complete sentence?",
-    "followUpOptions": [
-      "A) It has the word 'quickly'.",
-      "B) It includes a subordinate clause.",
-      "C) It has subject + verb + complete idea.",
-      "D) It is short and simple."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q26",
-    "section": 3,
-    "question": "26. Which of these is a sentence fragment?",
-    "options": [
-      "A) The kids played outside.",
-      "B) Because the storm passed.",
-      "C) She laughed at the joke.",
-      "D) They left the party."
-    ],
-    "correctAnswer": "B",
-    "hint": "Look for a dependent clause without a main clause.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! 'Because' makes this a dependent clause, which is a fragment on its own.",
-      "correct_hint": "✅ Good job using the hint! You identified the fragment.",
-      "incorrect_no_hint": "❌ This is a complete sentence. You're looking for a fragment.",
-      "incorrect_hint": "❌ You missed it. Remember, 'Because' signals an incomplete thought."
-    },
-    "followUpQuestion": "Why is 'Because the storm passed' a fragment?",
-    "followUpOptions": [
-      "A) It is too long.",
-      "B) It has no subject.",
-      "C) It’s a dependent clause standing alone.",
-      "D) It’s in passive voice."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q27",
-    "section": 3,
-    "question": "27. Identify the complete sentence.",
+    "section": 2,
+    "question": "15. Identify the complete sentence.",
     "options": [
       "A) Although he was sick.",
       "B) She stayed home from work.",
@@ -679,117 +625,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q28",
-    "section": 3,
-    "question": "28. Which sentence is a fragment?",
-    "options": [
-      "A) While the teacher was explaining.",
-      "B) They played a game.",
-      "C) The car stopped suddenly.",
-      "D) He found his keys."
-    ],
-    "correctAnswer": "A",
-    "hint": "Fragments often start with subordinating words but lack the main clause.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! 'While' makes this a dependent clause fragment.",
-      "correct_hint": "✅ Good job using the hint! You identified the fragment.",
-      "incorrect_no_hint": "❌ This is a complete sentence. You're looking for a fragment.",
-      "incorrect_hint": "❌ You missed it. Remember, dependent clauses can't stand alone."
-    },
-    "followUpQuestion": "Why is 'While the teacher was explaining' a fragment?",
-    "followUpOptions": [
-      "A) It doesn’t have a verb.",
-      "B) It’s a dependent clause without a main clause.",
-      "C) It includes too many verbs.",
-      "D) It has a passive voice."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q29",
-    "section": 3,
-    "question": "29. Which of these is a full sentence?",
-    "options": [
-      "A) After the speech.",
-      "B) The president spoke clearly.",
-      "C) While clapping loudly.",
-      "D) Before the parade began."
-    ],
-    "correctAnswer": "B",
-    "hint": "A sentence must express a full idea and include a subject and verb.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a complete sentence with a subject, verb, and full thought.",
-      "correct_hint": "✅ Great! The hint helped you find the complete sentence.",
-      "incorrect_no_hint": "❌ This is a fragment or dependent clause. You're looking for a full sentence.",
-      "incorrect_hint": "❌ You missed it. Review what makes a full sentence vs. a fragment."
-    },
-    "followUpQuestion": "What makes 'The president spoke clearly' a sentence?",
-    "followUpOptions": [
-      "A) It has a period.",
-      "B) It uses 'president'.",
-      "C) It contains a subject, verb, and complete thought.",
-      "D) It includes an adverb."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q30",
-    "section": 3,
-    "question": "30. Choose the sentence fragment.",
-    "options": [
-      "A) They ate lunch together.",
-      "B) After finishing the test.",
-      "C) She closed her notebook.",
-      "D) The phone rang loudly."
-    ],
-    "correctAnswer": "B",
-    "hint": "The sentence must be complete — not left hanging.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a phrase fragment, it can't stand alone.",
-      "correct_hint": "✅ Good job using the hint! You identified the fragment.",
-      "incorrect_no_hint": "❌ This is a complete sentence. You're looking for a fragment.",
-      "incorrect_hint": "❌ You missed it. Remember, a fragment is an incomplete thought."
-    },
-    "followUpQuestion": "Why is 'After finishing the test' not a full sentence?",
-    "followUpOptions": [
-      "A) It has no punctuation.",
-      "B) It’s a phrase without an independent clause.",
-      "C) It’s a command.",
-      "D) It uses the past tense."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q31",
-    "section": 3,
-    "question": "31. Which is a fragment?",
-    "options": [
-      "A) They watched a movie.",
-      "B) The lights were turned off.",
-      "C) Since the power went out.",
-      "D) He fell asleep quickly."
-    ],
-    "correctAnswer": "C",
-    "hint": "Watch for subordinating clauses that don’t finish the idea.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! 'Since' makes this a dependent clause fragment.",
-      "correct_hint": "✅ Good job using the hint! You identified the fragment.",
-      "incorrect_no_hint": "❌ This is a complete sentence. You're looking for a fragment.",
-      "incorrect_hint": "❌ You missed it. Remember, 'Since' often signals an incomplete thought."
-    },
-    "followUpQuestion": "Why is 'Since the power went out' a fragment?",
-    "followUpOptions": [
-      "A) It has no verb.",
-      "B) It’s too short.",
-      "C) It doesn’t complete the idea.",
-      "D) It ends with a noun."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q32",
-    "section": 3,
-    "question": "32. Which of the following is a complete sentence?",
+    "id": "q26",
+    "section": 2,
+    "question": "16. Which of the following is a complete sentence?",
     "options": [
       "A) Until the rain stopped.",
       "B) The kids played soccer.",
@@ -814,9 +652,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q33",
-    "section": 3,
-    "question": "33. Identify the sentence fragment.",
+    "id": "q27",
+    "section": 2,
+    "question": "17. Identify the sentence fragment.",
     "options": [
       "A) She opened the door.",
       "B) Because the door was locked.",
@@ -841,36 +679,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q34",
-    "section": 3,
-    "question": "34. Which is NOT a fragment?",
-    "options": [
-      "A) While he was running.",
-      "B) They won the game.",
-      "C) After the show ended.",
-      "D) Since the door was closed."
-    ],
-    "correctAnswer": "B",
-    "hint": "Only one has all sentence parts.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a complete sentence with a subject, verb, and full thought.",
-      "correct_hint": "✅ Great! The hint helped you find the complete sentence (not a fragment).",
-      "incorrect_no_hint": "❌ This is a fragment. You're looking for what is *not* a fragment.",
-      "incorrect_hint": "❌ You missed it. Review what makes a complete sentence vs. a fragment."
-    },
-    "followUpQuestion": "What makes 'They won the game' a sentence?",
-    "followUpOptions": [
-      "A) It’s short.",
-      "B) It starts with 'They'.",
-      "C) It contains a subject and verb and makes a complete statement.",
-      "D) It has a time clause."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q35",
-    "section": 3,
-    "question": "35. Which is a complete sentence?",
+    "id": "q28",
+    "section": 2,
+    "question": "18. Which is a complete sentence?",
     "options": [
       "A) Although he tried his best.",
       "B) Because she was absent.",
@@ -895,90 +706,9 @@
     "followUpAnswer": "D"
   },
   {
-    "id": "q36",
-    "section": 4,
-    "question": "36. Which of the following is a run-on sentence (fused sentence)?",
-    "options": [
-      "A. The sun was shining, and the birds were singing.",
-      "B. She finished her work she went home.",
-      "C. Although it was late, they continued working.",
-      "D. He studied hard; he wanted to pass the exam."
-    ],
-    "correctAnswer": "B",
-    "hint": "A run-on sentence joins two or more complete sentences without any punctuation or connecting words.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a run-on because two independent clauses are joined with no punctuation.",
-      "correct_hint": "✅ Good job using the hint to spot the fused sentence.",
-      "incorrect_no_hint": "❌ This is a run-on sentence because two complete ideas are jammed together without proper punctuation.",
-      "incorrect_hint": "❌ Even with the hint, you missed it. Remember, two full sentences need a break or connection."
-    },
-    "followUpQuestion": "What is the problem with option B?",
-    "followUpOptions": [
-      "A) It's a fragment.",
-      "B) It's a comma splice.",
-      "C) It's a fused sentence (run-on).",
-      "D) It uses incorrect verb tense."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q37",
-    "section": 4,
-    "question": "37. Identify the comma splice in the options below:",
-    "options": [
-      "A. The storm raged outside, we stayed warm indoors.",
-      "B. The storm raged outside; we stayed warm indoors.",
-      "C. The storm raged outside, and we stayed warm indoors.",
-      "D. Because the storm raged outside, we stayed warm indoors."
-    ],
-    "correctAnswer": "A",
-    "hint": "A comma splice incorrectly joins two independent clauses with only a comma.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! A comma alone isn't strong enough to join two independent clauses.",
-      "correct_hint": "✅ You used the hint to identify the comma splice. Well done!",
-      "incorrect_no_hint": "❌ This is a comma splice. Two independent clauses can't be joined by just a comma.",
-      "incorrect_hint": "❌ Even with the hint, you missed that a single comma isn't enough."
-    },
-    "followUpQuestion": "Why is option A a comma splice?",
-    "followUpOptions": [
-      "A) It combines a dependent and independent clause.",
-      "B) It uses a comma to join two independent clauses.",
-      "C) It has no subject.",
-      "D) It is a very long sentence."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q38",
-    "section": 4,
-    "question": "38. Which of the following is a grammatically correct sentence?",
-    "options": [
-      "A. The car broke down, we called a tow truck.",
-      "B. The car broke down we called a tow truck.",
-      "C. The car broke down; we called a tow truck.",
-      "D. The car breaking down, we called a tow truck."
-    ],
-    "correctAnswer": "C",
-    "hint": "Look for proper punctuation between two independent clauses.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! A semicolon properly joins two closely related independent clauses.",
-      "correct_hint": "✅ Good job, the hint helped you find the correct punctuation.",
-      "incorrect_no_hint": "❌ Options A and B are common errors. Remember how to join independent clauses correctly.",
-      "incorrect_hint": "❌ You missed the correct punctuation. Review methods for fixing run-ons."
-    },
-    "followUpQuestion": "What is wrong with option A?",
-    "followUpOptions": [
-      "A) It's a fragment.",
-      "B) It's a run-on sentence.",
-      "C) It's a comma splice.",
-      "D) It has an irrelevant phrase."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q39",
-    "section": 4,
-    "question": "39. Identify the run-on sentence (fused sentence) in the list.",
+    "id": "q29",
+    "section": 2,
+    "question": "19. Identify the run-on sentence (fused sentence) in the list.",
     "options": [
       "A. I enjoy reading, and I love writing.",
       "B. She sings beautifully she dances gracefully.",
@@ -1003,9 +733,9 @@
     "followUpAnswer": "B"
   },
   {
-    "id": "q40",
-    "section": 4,
-    "question": "40. Which sentence contains a comma splice?",
+    "id": "q30",
+    "section": 2,
+    "question": "20. Which sentence contains a comma splice?",
     "options": [
       "A. My cat loves to play, my dog prefers to sleep.",
       "B. My cat loves to play; my dog prefers to sleep.",
@@ -1030,90 +760,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q41",
-    "section": 5,
-    "question": "41. Which sentence demonstrates a comma splice involving a conjunctive adverb?",
-    "options": [
-      "A. The results were surprising; therefore, the experiment will be repeated.",
-      "B. The results were surprising, therefore, the experiment will be repeated.",
-      "C. The results were surprising, and the experiment will be repeated.",
-      "D. Because the results were surprising, the experiment will be repeated."
-    ],
-    "correctAnswer": "B",
-    "hint": "Conjunctive adverbs like 'therefore,' 'however,' 'consequently,' etc., require a semicolon before them when connecting two independent clauses, not just a comma.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! This is a comma splice, incorrectly using a comma before 'therefore'.",
-      "correct_hint": "✅ Good job using the hint! You identified the comma splice with the conjunctive adverb.",
-      "incorrect_no_hint": "❌ This is a comma splice. A semicolon is needed before 'therefore'.",
-      "incorrect_hint": "❌ You missed it. Review the punctuation rules for conjunctive adverbs between independent clauses."
-    },
-    "followUpQuestion": "Excellent! You identified the comma splice with a conjunctive adverb. How should 'therefore' be punctuated when it connects two independent clauses?",
-    "followUpOptions": [
-      "A. Comma before, comma after.",
-      "B. Semicolon before, comma after.",
-      "C. Period before, comma after.",
-      "D. No punctuation needed."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q42",
-    "section": 5,
-    "question": "42. Choose the option that correctly fixes the run-on sentence: 'The alarm rang loudly I woke up immediately.'",
-    "options": [
-      "A. The alarm rang loudly, I woke up immediately.",
-      "B. The alarm rang loudly; I woke up immediately.",
-      "C. When the alarm rang loudly, I woke up immediately.",
-      "D. All of the above except A."
-    ],
-    "correctAnswer": "D",
-    "hint": "Consider all the correct methods for fixing run-on sentences. There may be multiple correct answers.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! Both B and C are valid ways to fix the run-on sentence.",
-      "correct_hint": "✅ Good job using the hint! You found multiple correct ways to fix the run-on.",
-      "incorrect_no_hint": "❌ Option A is a comma splice. You need to review all methods for fixing run-on sentences.",
-      "incorrect_hint": "❌ You missed that multiple options were correct. Review all four methods."
-    },
-    "followUpQuestion": "Fantastic! You correctly identified all the valid ways to fix the run-on sentence. Why is option A incorrect?",
-    "followUpOptions": [
-      "A. It is a fragment.",
-      "B. It is a run-on sentence.",
-      "C. It is a comma splice.",
-      "D. It changes the meaning."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q43",
-    "section": 5,
-    "question": "43. Correct the comma splice: 'The new policy was unpopular, it faced immediate opposition.'",
-    "options": [
-      "A. The new policy was unpopular it faced immediate opposition.",
-      "B. The new policy was unpopular, and it faced immediate opposition.",
-      "C. The new policy was unpopular; it faced immediate opposition.",
-      "D. Both B and C."
-    ],
-    "correctAnswer": "D",
-    "hint": "A comma splice can often be fixed in multiple ways. Look for options that correctly separate or join the two independent clauses.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! Both B (comma + conjunction) and C (semicolon) are valid fixes.",
-      "correct_hint": "✅ Great! The hint helped you recognize both correct ways to fix the comma splice.",
-      "incorrect_no_hint": "❌ Option A is a fused run-on. Remember, there are multiple correct ways to fix a comma splice.",
-      "incorrect_hint": "❌ You missed that multiple options were correct. Review methods for fixing comma splices."
-    },
-    "followUpQuestion": "Fantastic! You recognized that both options B and C correctly fix the comma splice. What is the name of the group of coordinating conjunctions that includes 'and'?",
-    "followUpOptions": [
-      "A. FANBOYS",
-      "B. Subordinating conjunctions",
-      "C. Transition words",
-      "D. Relative pronouns"
-    ],
-    "followUpAnswer": "A"
-  },
-  {
-    "id": "q44",
-    "section": 5,
-    "question": "44. Choose the option that correctly combines these two independent clauses: 'The team practiced hard. They were ready for the championship.'",
+    "id": "q31",
+    "section": 2,
+    "question": "21. Choose the option that correctly combines these two independent clauses: 'The team practiced hard. They were ready for the championship.'",
     "options": [
       "A. The team practiced hard, they were ready for the championship.",
       "B. The team practiced hard; they were ready for the championship.",
@@ -1138,144 +787,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q45",
-    "section": 5,
-    "question": "45. Consider the sentence: 'The new restaurant opened last week it is already very popular.' Which option is the best way to fix this run-on sentence, emphasizing the *result*?",
-    "options": [
-      "A. The new restaurant opened last week. It is already very popular.",
-      "B. The new restaurant opened last week; it is already very popular.",
-      "C. The new restaurant opened last week, so it is already very popular.",
-      "D. The new restaurant opened last week, and it is already very popular."
-    ],
-    "correctAnswer": "C",
-    "hint": "To emphasize the *result*, you need a specific coordinating conjunction (FANBOYS) or a subordinating conjunction.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! Using 'so' explicitly shows the popularity is a result of opening last week.",
-      "correct_hint": "✅ Perfect! The hint guided you to the best option for emphasizing the result.",
-      "incorrect_no_hint": "❌ Options A and B are correct fixes but don't emphasize the *result* as clearly as 'so'. Option D implies addition.",
-      "incorrect_hint": "❌ You picked a less effective option for emphasizing the result. Review FANBOYS meanings."
-    },
-    "followUpQuestion": "Perfect! You chose the best option to emphasize the result. What is the category of words like 'so', 'for', and 'but'?",
-    "followUpOptions": [
-      "A. Subordinating conjunctions",
-      "B. Conjunctive adverbs",
-      "C. Coordinating conjunctions",
-      "D. Prepositions"
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q46",
-    "section": 5,
-    "question": "46. Choose the best way to fix the run-on sentence: 'The alarm clock rang I immediately woke up.'",
-    "options": [
-      "A. The alarm clock rang, I immediately woke up.",
-      "B. The alarm clock rang. I immediately woke up.",
-      "C. The alarm clock rang and I immediately woke up.",
-      "D. When the alarm clock rang, I immediately woke up."
-    ],
-    "correctAnswer": "B",
-    "hint": "The simplest way to fix a run-on is to separate the two independent clauses into two distinct sentences using a period.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! Separating with a period is a clear and simple fix.",
-      "correct_hint": "✅ Good job using the hint! You correctly fixed the run-on.",
-      "incorrect_no_hint": "❌ This is a common error. Remember, two independent clauses need a strong separator like a period.",
-      "incorrect_hint": "❌ Even with the hint, you missed the most straightforward fix. Review using periods."
-    },
-    "followUpQuestion": "Excellent! You chose the correct way to fix the run-on using a period. When is using a period the best method to fix a run-on sentence?",
-    "followUpOptions": [
-      "A. When the ideas are very complex.",
-      "B. When the ideas are closely related.",
-      "C. When the ideas are related but can stand as separate, clear points.",
-      "D. When you want to combine them into one long sentence."
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q47",
-    "section": 5,
-    "question": "47. Fix the comma splice: 'The research was extensive, it revealed new insights.' using a semicolon.",
-    "options": [
-      "A. The research was extensive. It revealed new insights.",
-      "B. The research was extensive; it revealed new insights.",
-      "C. The research was extensive, and it revealed new insights.",
-      "D. Because the research was extensive, it revealed new insights."
-    ],
-    "correctAnswer": "B",
-    "hint": "A semicolon is used to join two closely related independent clauses. Both clauses must be able to stand alone.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! A semicolon properly joins these two related independent clauses.",
-      "correct_hint": "✅ Good use of the hint! You correctly used a semicolon.",
-      "incorrect_no_hint": "❌ You missed using a semicolon. It's needed to join two independent clauses directly.",
-      "incorrect_hint": "❌ Even with the hint, you struggled. Remember semicolons are strong connectors."
-    },
-    "followUpQuestion": "Correct! You successfully fixed the comma splice using a semicolon. What does a semicolon imply about the relationship between the two clauses it joins?",
-    "followUpOptions": [
-      "A. They are completely unrelated.",
-      "B. They are closely related in meaning.",
-      "C. One clause is dependent on the other.",
-      "D. It indicates a strong contrast."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q48",
-    "section": 5,
-    "question": "48. Choose the best way to fix the run-on sentence: 'Many students struggled with the essay they eventually improved.' using a comma and a coordinating conjunction.",
-    "options": [
-      "A. Many students struggled with the essay. They eventually improved.",
-      "B. Many students struggled with the essay; they eventually improved.",
-      "C. Many students struggled with the essay, but they eventually improved.",
-      "D. Although many students struggled with the essay, they eventually improved."
-    ],
-    "correctAnswer": "C",
-    "hint": "Remember the FANBOYS (For, And, Nor, But, Or, Yet, So) and that a comma comes *before* the conjunction.",
-    "feedback": {
-      "correct_no_hint": "✅ Perfect! 'But' correctly shows the contrast between struggling and improving.",
-      "correct_hint": "✅ Excellent! The hint helped you choose the right coordinating conjunction.",
-      "incorrect_no_hint": "❌ You needed a comma AND a coordinating conjunction. 'But' shows contrast.",
-      "incorrect_hint": "❌ You missed it. Remember the FANBOYS and the comma rule."
-    },
-    "followUpQuestion": "Excellent! You chose the correct way to fix the run-on using a comma and a coordinating conjunction. Which FANBOYS conjunction would you use to show a *result*?",
-    "followUpOptions": [
-      "A. For",
-      "B. And",
-      "C. So",
-      "D. But"
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q49",
-    "section": 5,
-    "question": "49. Combine these ideas using a subordinating conjunction, with the dependent clause coming first: 'The data was clear. The hypothesis was disproven.'",
-    "options": [
-      "A. The data was clear, the hypothesis was disproven.",
-      "B. The data was clear; the hypothesis was disproven.",
-      "C. Although the data was clear, the hypothesis was disproven.",
-      "D. The data was clear, and the hypothesis was disproven."
-    ],
-    "correctAnswer": "C",
-    "hint": "When a dependent clause comes first, it must be followed by a comma before the independent clause.",
-    "feedback": {
-      "correct_no_hint": "✅ Correct! 'Although' properly introduces the dependent clause, followed by a comma.",
-      "correct_hint": "✅ Great! The hint helped you with the correct structure and punctuation.",
-      "incorrect_no_hint": "❌ This needed a subordinating conjunction and proper comma placement. Option A is a comma splice.",
-      "incorrect_hint": "❌ You're still struggling with complex sentences. Review subordinating conjunctions and commas."
-    },
-    "followUpQuestion": "Perfect! You correctly combined the ideas using a subordinating conjunction with the dependent clause first. What is the rule for punctuation when a dependent clause *starts* a sentence?",
-    "followUpOptions": [
-      "A. No comma is needed.",
-      "B. A comma is always needed after the dependent clause.",
-      "C. A semicolon is needed.",
-      "D. A period is needed."
-    ],
-    "followUpAnswer": "B"
-  },
-  {
-    "id": "q50",
-    "section": 5,
-    "question": "50. Combine these ideas using a subordinating conjunction, with the independent clause coming first: 'They made several revisions. The committee reviewed the proposal.'",
+    "id": "q32",
+    "section": 2,
+    "question": "22. Combine these ideas using a subordinating conjunction, with the independent clause coming first: 'They made several revisions. The committee reviewed the proposal.'",
     "options": [
       "A. They made several revisions, after the committee reviewed the proposal.",
       "B. After the committee reviewed the proposal, they made several revisions.",
@@ -1300,9 +814,9 @@
     "followUpAnswer": "B"
   },
   {
-    "id": "q51",
-    "section": 5,
-    "question": "51. Which sentence correctly uses a coordinating conjunction to show *contrast* between two independent clauses?",
+    "id": "q33",
+    "section": 2,
+    "question": "23. Which sentence correctly uses a coordinating conjunction to show *contrast* between two independent clauses?",
     "options": [
       "A. He wanted to go to the party, and he had to study.",
       "B. He wanted to go to the party, but he had to study.",
@@ -1327,9 +841,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q52",
-    "section": 5,
-    "question": "52. Which option correctly fixes the comma splice: 'The dog barked loudly, the cat ran away.'",
+    "id": "q34",
+    "section": 2,
+    "question": "24. Which option correctly fixes the comma splice: 'The dog barked loudly, the cat ran away.'",
     "options": [
       "A. The dog barked loudly the cat ran away.",
       "B. The dog barked loudly. The cat ran away.",
@@ -1354,36 +868,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q53",
-    "section": 5,
-    "question": "53. Which sentence correctly uses a subordinating conjunction to show a *cause* for the action?",
-    "options": [
-      "A. He was tired, so he went to bed early.",
-      "B. He was tired; he went to bed early.",
-      "C. Because he was tired, he went to bed early.",
-      "D. He was tired, but he went to bed early."
-    ],
-    "correctAnswer": "C",
-    "hint": "Look for a subordinating conjunction that means 'reason' or 'cause'.",
-    "feedback": {
-      "correct_no_hint": "✅ Excellent! 'Because' clearly indicates the cause of him going to bed early.",
-      "correct_hint": "✅ Good job using the hint to find the cause-and-effect relationship.",
-      "incorrect_no_hint": "❌ Option A shows a result. You need a word that shows the reason.",
-      "incorrect_hint": "❌ You picked the wrong type of conjunction. Review subordinating conjunctions for cause."
-    },
-    "followUpQuestion": "Excellent! You correctly identified the sentence showing cause. What is the grammatical term for 'Because he was tired' in this sentence?",
-    "followUpOptions": [
-      "A. Independent clause",
-      "B. Noun phrase",
-      "C. Dependent clause",
-      "D. Prepositional phrase"
-    ],
-    "followUpAnswer": "C"
-  },
-  {
-    "id": "q54",
-    "section": 5,
-    "question": "54. Which sentence correctly fixes the run-on sentence 'The weather was cold the children played indoors.' using a comma and a coordinating conjunction?",
+    "id": "q35",
+    "section": 2,
+    "question": "25. Which sentence correctly fixes the run-on sentence 'The weather was cold the children played indoors.' using a comma and a coordinating conjunction?",
     "options": [
       "A. The weather was cold. The children played indoors.",
       "B. The weather was cold; the children played indoors.",
@@ -1399,18 +886,19 @@
       "incorrect_hint": "❌ You picked the wrong fix or missed the coordinating conjunction rule."
     },
     "followUpQuestion": "Correct! You fixed the run-on using a comma and coordinating conjunction. If you wanted to show a *contrast* instead of a result, which FANBOYS would you use?",
-    "followUpOptions": [
+    "followUpCorrectOptions": [
       "A. And",
       "B. But",
       "C. Or",
       "D. For"
     ],
-    "followUpAnswer": "B"
+    "followUpCorrectAnswer": "B",
+    "followUpIncorrect": "You picked the wrong type of conjunction. Review coordinating conjunctions for cause and effect."
   },
   {
-    "id": "q55",
-    "section": 5,
-    "question": "55. Consider the comma splice: 'The presentation was long, many attendees left early.' Which option offers the *most concise* and correct fix?",
+    "id": "q36",
+    "section": 2,
+    "question": "26. Consider the comma splice: 'The presentation was long, many attendees left early.' Which option offers the *most concise* and correct fix?",
     "options": [
       "A. The presentation was long. Many attendees left early.",
       "B. The presentation was long; many attendees left early.",
@@ -1435,9 +923,9 @@
     "followUpAnswer": "C"
   },
   {
-    "id": "q56",
-    "section": 6,
-    "question": "56. Each student must bring _____ own calculator to the exam.",
+    "id": "q37",
+    "section": 3,
+    "question": "1. Each student must bring _____ own calculator to the exam.",
     "options": [
       "A. their",
       "B. his or her",
@@ -1461,9 +949,9 @@
     "followUpIncorrect": "Review Rule 1 and Rule 3 about singular antecedents and indefinite pronouns in the Pronoun Agreement lesson. Remember that words like 'each' are singular."
   },
   {
-    "id": "q57",
-    "section": 6,
-    "question": "57. The scientists presented _____ findings at the conference.",
+    "id": "q38",
+    "section": 3,
+    "question": "2. The scientists presented _____ findings at the conference.",
     "options": [
       "A. his",
       "B. her",
@@ -1487,9 +975,9 @@
     "followUpIncorrect": "Review Rule 2 about plural antecedents in the Pronoun Agreement lesson. Pay attention to whether the noun is singular or plural."
   },
   {
-    "id": "q58",
-    "section": 6,
-    "question": "58. Someone left _____ umbrella in the classroom.",
+    "id": "q39",
+    "section": 3,
+    "question": "3. Someone left _____ umbrella in the classroom.",
     "options": [
       "A. their",
       "B. his or her",
@@ -1513,9 +1001,9 @@
     "followUpIncorrect": "Review Rule 3 about indefinite pronouns in the Pronoun Agreement lesson. Remember which indefinite pronouns are always singular."
   },
   {
-    "id": "q59",
-    "section": 6,
-    "question": "59. Both of the proposals received _____ full support from the committee.",
+    "id": "q40",
+    "section": 3,
+    "question": "4. Both of the proposals received _____ full support from the committee.",
     "options": [
       "A. its",
       "B. his or her",
@@ -1539,9 +1027,9 @@
     "followUpIncorrect": "Review Rule 3 about indefinite pronouns in the Pronoun Agreement lesson. Pay attention to which indefinite pronouns are always plural."
   },
   {
-    "id": "q60",
-    "section": 6,
-    "question": "60. The jury reached _____ verdict after hours of deliberation.",
+    "id": "q41",
+    "section": 3,
+    "question": "5. The jury reached _____ verdict after hours of deliberation.",
     "options": [
       "A. their",
       "B. its",
@@ -1565,9 +1053,9 @@
     "followUpIncorrect": "Review Rule 4 about collective nouns in the Pronoun Agreement lesson. Remember to consider whether the group is acting as one unit or as separate individuals."
   },
   {
-    "id": "q61",
-    "section": 6,
-    "question": "61. The team wore _____ new uniforms for the championship game.",
+    "id": "q42",
+    "section": 3,
+    "question": "6. The team wore _____ new uniforms for the championship game.",
     "options": [
       "A. its",
       "B. his or her",
@@ -1591,9 +1079,9 @@
     "followUpIncorrect": "Review Rule 4 about collective nouns in the Pronoun Agreement lesson. Pay close attention to whether the collective noun is acting as a single unit or as separate individuals."
   },
   {
-    "id": "q62",
-    "section": 6,
-    "question": "62. The principal and the superintendent announced _____ decision to the faculty.",
+    "id": "q43",
+    "section": 3,
+    "question": "7. The principal and the superintendent announced _____ decision to the faculty.",
     "options": [
       "A. his",
       "B. her",
@@ -1617,9 +1105,9 @@
     "followUpIncorrect": "Review Rule 5 about compound antecedents joined by 'and' in the Pronoun Agreement lesson."
   },
   {
-    "id": "q63",
-    "section": 6,
-    "question": "63. Neither the students nor the teacher expressed _____ opinion on the new policy.",
+    "id": "q44",
+    "section": 3,
+    "question": "8. Neither the students nor the teacher expressed _____ opinion on the new policy.",
     "options": [
       "A. their",
       "B. his or her",
@@ -1643,9 +1131,9 @@
     "followUpIncorrect": "Review Rule 5 about compound antecedents joined by 'or' or 'nor' in the Pronoun Agreement lesson. Remember to look at the closest noun."
   },
   {
-    "id": "q64",
-    "section": 6,
-    "question": "64. Neither the teacher nor the students expressed _____ opinion on the new policy.",
+    "id": "q45",
+    "section": 3,
+    "question": "9. Neither the teacher nor the students expressed _____ opinion on the new policy.",
     "options": [
       "A. his or her",
       "B. their",
@@ -1669,9 +1157,9 @@
     "followUpIncorrect": "Review Rule 5 about compound antecedents joined by 'or' or 'nor' in the Pronoun Agreement lesson. This rule is crucial for SAT success."
   },
   {
-    "id": "q65",
-    "section": 6,
-    "question": "65. The committee, after reviewing all the individual applications, submitted _____ recommendations to the board.",
+    "id": "q46",
+    "section": 3,
+    "question": "10. The committee, after reviewing all the individual applications, submitted _____ recommendations to the board.",
     "options": [
       "A. its",
       "B. their",
@@ -1695,9 +1183,9 @@
     "followUpIncorrect": "This is a tricky case involving collective nouns. Revisit Rule 4 in the Pronoun Agreement lesson and pay close attention to context clues that indicate individual actions within a group."
   },
   {
-    "id": "q66",
-    "section": 6,
-    "question": "66. The coach told the players that the decision was final, leaving no room for discussion between the general manager and _____.",
+    "id": "q47",
+    "section": 3,
+    "question": "11. The coach told the players that the decision was final, leaving no room for discussion between the general manager and _____.",
     "options": [
       "A. he",
       "B. him",
@@ -1721,9 +1209,9 @@
     "followUpIncorrect": "Review the difference between subject and object pronouns. Remember pronouns after prepositions are always object pronouns."
   },
   {
-    "id": "q67",
-    "section": 6,
-    "question": "67. Despite the challenging defense, it was clear that the best players on the court were Sarah and _____.",
+    "id": "q48",
+    "section": 3,
+    "question": "12. Despite the challenging defense, it was clear that the best players on the court were Sarah and _____.",
     "options": [
       "A. I",
       "B. me",
@@ -1747,9 +1235,9 @@
     "followUpIncorrect": "Review the rules for pronouns after linking verbs. Remember that pronouns renaming the subject must be in the subject case."
   },
   {
-    "id": "q68",
-    "section": 6,
-    "question": "68. When the forward passed to the guard, he quickly shot the ball.",
+    "id": "q49",
+    "section": 3,
+    "question": "13. When the forward passed to the guard, he quickly shot the ball.",
     "options": [
       "A. he",
       "B. the forward",
@@ -1773,9 +1261,9 @@
     "followUpIncorrect": "Focus on making sure pronouns have a clear and unmistakable antecedent. If there are two possible nouns, the pronoun is ambiguous."
   },
   {
-    "id": "q69",
-    "section": 6,
-    "question": "69. The coach informed the team that they needed to improve their defense, which was a good idea.",
+    "id": "q50",
+    "section": 3,
+    "question": "14. The coach informed the team that they needed to improve their defense, which was a good idea.",
     "options": [
       "A. which",
       "B. this idea",
@@ -1799,9 +1287,9 @@
     "followUpIncorrect": "Be careful of vague references, especially with \"which\" or \"this\" referring to an entire idea or clause. Replace them with clear noun phrases."
   },
   {
-    "id": "q70",
-    "section": 6,
-    "question": "70. The referee's objection to them complaining loudly was understandable.",
+    "id": "q51",
+    "section": 3,
+    "question": "15. The referee's objection to them complaining loudly was understandable.",
     "options": [
       "A. them",
       "B. their",
@@ -1825,9 +1313,9 @@
     "followUpIncorrect": "Remember that gerunds (verbs ending in -ing acting as nouns) take possessive pronouns."
   },
   {
-    "id": "q71",
-    "section": 6,
-    "question": "71. When one is practicing free throws, _____ should focus on proper form.",
+    "id": "q52",
+    "section": 3,
+    "question": "16. When one is practicing free throws, _____ should focus on proper form.",
     "options": [
       "A. they",
       "B. he or she",
@@ -1851,9 +1339,9 @@
     "followUpIncorrect": "Pay attention to maintaining consistency when 'one' is used as a generic pronoun."
   },
   {
-    "id": "q72",
-    "section": 6,
-    "question": "72. In the instruction manual for the new basketball hoop, it says that assembly takes two hours.",
+    "id": "q53",
+    "section": 3,
+    "question": "17. In the instruction manual for the new basketball hoop, it says that assembly takes two hours.",
     "options": [
       "A. it",
       "B. they",
@@ -1877,9 +1365,9 @@
     "followUpIncorrect": "Avoid using \"it\" or \"they\" when the antecedent is unclear or too general. Replace them with a specific noun or noun phrase."
   },
   {
-    "id": "q73",
-    "section": 6,
-    "question": "73. The new point guard is faster than him.",
+    "id": "q54",
+    "section": 3,
+    "question": "18. The new point guard is faster than him.",
     "options": [
       "A. him",
       "B. he",
@@ -1903,9 +1391,9 @@
     "followUpIncorrect": "In comparisons, use the same case for the pronoun as for the noun it's being compared to. Often, an implied verb helps you determine the correct case."
   },
   {
-    "id": "q74",
-    "section": 6,
-    "question": "74. The two best players, Sarah and me, were chosen for the All-Star team.",
+    "id": "q55",
+    "section": 3,
+    "question": "19. The two best players, Sarah and me, were chosen for the All-Star team.",
     "options": [
       "A. me",
       "B. I",
@@ -1929,9 +1417,9 @@
     "followUpIncorrect": "When a pronoun is part of an appositive that renames a subject, it must be in the subject case. Test by removing the noun: \"Sarah and I were chosen.\""
   },
   {
-    "id": "q75",
-    "section": 6,
-    "question": "75. To whom did the coach give the award?",
+    "id": "q56",
+    "section": 3,
+    "question": "20. To whom did the coach give the award?",
     "options": [
       "A. who",
       "B. whom",
@@ -1955,8 +1443,8 @@
     "followUpIncorrect": "Remember the simple rule for \"who\" vs. \"whom\": If you can replace it with \"he/she\" (subject), use \"who.\" If you can replace it with \"him/her\" (object), use \"whom.\""
   },
   {
-    "id": "q1",
-    "section": 7,
+    "id": "q57",
+    "section": 4,
     "question": "By the time the new art exhibit opens next month, the museum _______ a major renovation for over six months.",
     "options": [
       "A) has been undergoing",
@@ -1981,8 +1469,8 @@
     "followUpIncorrect": "Review the uses of future perfect continuous tense, especially how it describes actions continuing up to a future point."
   },
   {
-    "id": "q2",
-    "section": 7,
+    "id": "q58",
+    "section": 4,
     "question": "Before she moved to the city, Maria _______ her entire life in a small rural town.",
     "options": [
       "A) spent",
@@ -2007,8 +1495,8 @@
     "followUpIncorrect": "Focus on understanding the sequence of events when using past tenses. The past perfect clarifies which action happened earlier."
   },
   {
-    "id": "q3",
-    "section": 7,
+    "id": "q59",
+    "section": 4,
     "question": "Scientists _______ for years to find a cure for the common cold, but they have not yet succeeded.",
     "options": [
       "A) had been trying",
@@ -2033,8 +1521,8 @@
     "followUpIncorrect": "Review the present perfect continuous tense. It's crucial for expressing actions that began in the past and continue to the present."
   },
   {
-    "id": "q4",
-    "section": 7,
+    "id": "q60",
+    "section": 4,
     "question": "Last summer, while I _______ on vacation, my neighbor _______ my plants every day.",
     "options": [
       "A) was; watered",
@@ -2053,14 +1541,14 @@
       "A) To describe an action completed in the past.",
       "B) To describe an action that was ongoing at a specific time in the past.",
       "C) To describe a habitual action in the present.",
-      "D) To describe an action that will be completed in the future."
+      "D) To describe a future event."
     ],
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Pay attention to how different past tenses are used to show the relationship between actions happening in the past, especially simultaneous or sequential events."
   },
   {
-    "id": "q5",
-    "section": 7,
+    "id": "q61",
+    "section": 4,
     "question": "If I _______ more time, I _______ learn a new language.",
     "options": [
       "A) had; would",
@@ -2085,8 +1573,8 @@
     "followUpIncorrect": "Review the different types of conditional sentences (Type 1, Type 2, Type 3) and their corresponding verb tenses."
   },
   {
-    "id": "q6",
-    "section": 7,
+    "id": "q62",
+    "section": 4,
     "question": "Every morning, the baker _______ fresh bread for the neighborhood.",
     "options": [
       "A) baked",
@@ -2111,8 +1599,8 @@
     "followUpIncorrect": "Review the basic uses of the simple present tense, especially for routines and facts."
   },
   {
-    "id": "q7",
-    "section": 7,
+    "id": "q63",
+    "section": 4,
     "question": "Right now, I _______ an interesting article about renewable energy.",
     "options": [
       "A) read",
@@ -2137,13 +1625,13 @@
     "followUpIncorrect": "Understand that 'right now' is a key indicator for the present continuous tense."
   },
   {
-    "id": "q8",
-    "section": 7,
+    "id": "q64",
+    "section": 4,
     "question": "By the time we arrived at the concert, the band _______ their first song.",
     "options": [
       "A) started",
       "B) had started",
-      "C) was starting",
+      "C) Plug",
       "D) starts"
     ],
     "correctAnswer": "B",
@@ -2163,8 +1651,8 @@
     "followUpIncorrect": "Practice identifying which past action occurred first when multiple past events are described."
   },
   {
-    "id": "q9",
-    "section": 7,
+    "id": "q65",
+    "section": 4,
     "question": "I _______ to London many times, but I still haven't visited the Tower of London.",
     "options": [
       "A) went",
@@ -2177,7 +1665,7 @@
     "explanationCorrect": "The correct answer is 'have been' (present perfect). 'Have been to' is used to talk about visiting a place and returning. It emphasizes the experience of having visited, which is relevant to the current statement about not having visited a specific landmark yet.",
     "explanationIncorrectA": "Option A, 'went' (simple past), is used for a completed action in the past where the exact time might be specified or understood, but it doesn't carry the implication of returning or ongoing relevance to the present.",
     "explanationIncorrectB": "Option B, 'have gone' (present perfect), implies that the person is still there or on their way and hasn't returned.",
-    "explanationIncorrectD": "Option D, 'will go' (simple future), refers to a future action.",
+    "explanationIncorrectD": "Option D, 'will go' (simple future), refers to an action that will happen in the future.",
     "followUpCorrect": "What is the key difference between 'have been to' and 'have gone to'?",
     "followUpCorrectOptions": [
       "A) 'Have been to' means you are still there; 'have gone to' means you returned.",
@@ -2189,8 +1677,8 @@
     "followUpIncorrect": "Distinguish carefully between 'have been to' and 'have gone to' as they carry different implications about presence and return."
   },
   {
-    "id": "q10",
-    "section": 7,
+    "id": "q66",
+    "section": 4,
     "question": "If the weather _______ good tomorrow, we _______ hiking.",
     "options": [
       "A) is; will go",
@@ -2215,8 +1703,8 @@
     "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
   },
   {
-    "id": "q11",
-    "section": 7,
+    "id": "q67",
+    "section": 4,
     "question": "Despite the team's best efforts, they _______ to score a single goal throughout the entire game, which _______ their chances of winning the championship.",
     "options": [
       "A) failed; hurt",
@@ -2234,15 +1722,15 @@
     "followUpCorrectOptions": [
       "A) When an action started in the past and continues to the present.",
       "B) When describing an action completed at a specific or understood time in the past.",
-      "C) When an action was ongoing at a specific time in the past.",
+      "C) When describing an ongoing action that started in the past and continues to the present.",
       "D) When an action was completed before another past action."
     ],
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Remember that sometimes the simplest past tense is the most accurate. Avoid overcomplicating with perfect or continuous tenses when a simple past will do for completed actions."
   },
   {
-    "id": "q12",
-    "section": 7,
+    "id": "q68",
+    "section": 4,
     "question": "Although the ancient manuscript _______ for centuries, its true significance _______ until recent archaeological discoveries.",
     "options": [
       "A) existed; was not realizing",
@@ -2251,7 +1739,7 @@
       "D) exists; will not be realized"
     ],
     "correctAnswer": "B",
-    "hint": "The sentence describes two actions in the past. One action (existence) continued up to another point in the past (discovery and realization), which happened passively.",
+    "hint": "The sentence describes two actions in the past. One action (abandonment) continued up to another point in the past (discovery and realization), which happened passively.",
     "explanationCorrect": "The correct answer is 'had existed; was not realized'. 'Had existed' (past perfect) correctly indicates that the manuscript's existence spanned a period up to the point of discovery. 'Was not realized' (past passive) is appropriate because the significance *was* realized by someone, not that it realized itself. The overall context is past events.",
     "explanationIncorrectA": "Option A, 'existed' (simple past), is plausible for the first blank, but 'was not realizing' (past continuous active) is grammatically incorrect for 'significance' as it cannot 'realize' itself. It needs to be in the passive voice.",
     "explanationIncorrectC": "Option C, 'has existed' (present perfect), and 'is not realized' (present passive) indicate relevance to the present, which contradicts 'until recent archaeological discoveries,' suggesting a completed past event.",
@@ -2267,8 +1755,8 @@
     "followUpIncorrect": "This question tests both verb tense and voice (active/passive). Ensure you understand when to use the passive voice, especially when the subject receives the action."
   },
   {
-    "id": "q13",
-    "section": 7,
+    "id": "q69",
+    "section": 4,
     "question": "Since the new policy _______ into effect last month, the company's productivity _______ significantly.",
     "options": [
       "A) came; has increased",
@@ -2293,8 +1781,8 @@
     "followUpIncorrect": "Pay close attention to time markers like 'since' which often connect a past event to its ongoing effect in the present, requiring the present perfect."
   },
   {
-    "id": "q14",
-    "section": 7,
+    "id": "q70",
+    "section": 4,
     "question": "The archaeologist, who _______ over two decades studying ancient civilizations, _______ a groundbreaking discovery last week.",
     "options": [
       "A) had spent; made",
@@ -2311,7 +1799,7 @@
     "followUpCorrect": "When would 'had spent' (past perfect) be a more suitable choice for the first blank?",
     "followUpCorrectOptions": [
       "A) If the sentence ended with 'by the time he retired'.",
-      "B) If the sentence was describing his current work.",
+      "B) If the sentence was comparing research methods *prior to the internet* with methods *after* the internet, within a larger past narrative.",
       "C) If the sentence referred to a future event.",
       "D) If the sentence was a general truth."
     ],
@@ -2319,8 +1807,8 @@
     "followUpIncorrect": "This question requires a nuanced understanding of how present perfect (for relevance to present) and past perfect (for sequence in the past) function alongside simple past."
   },
   {
-    "id": "q15",
-    "section": 7,
+    "id": "q71",
+    "section": 4,
     "question": "If only I _______ harder for the exam, I _______ a better grade.",
     "options": [
       "A) had studied; would have gotten",
@@ -2345,8 +1833,8 @@
     "followUpIncorrect": "Master the third conditional, especially when dealing with expressions of regret or counterfactual pasts."
   },
   {
-    "id": "q16",
-    "section": 7,
+    "id": "q72",
+    "section": 4,
     "question": "By the time he graduates next year, Mark _______ his academic research for nearly five years.",
     "options": [
       "A) was conducting",
@@ -2371,8 +1859,8 @@
     "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
   },
   {
-    "id": "q17",
-    "section": 7,
+    "id": "q73",
+    "section": 4,
     "question": "The ancient city, which _______ abandoned for centuries, _______ only recently by archaeologists.",
     "options": [
       "A) had been; was discovered",
@@ -2382,7 +1870,7 @@
     ],
     "correctAnswer": "A",
     "hint": "One action (abandonment) happened before another past action (discovery). The discovery itself was a passive event.",
-    "explanationCorrect": "The correct answer is 'had been; was discovered'. 'Had been' (past perfect) is correct for the state of being abandoned, which occurred and continued *before* the discovery. 'Was discovered' (past passive) is correct because the city *was* discovered by archaeologists; it didn't discover itself.",
+    "explanationCorrect": "The correct answer is 'had been; was discovered'. 'Had been' (past perfect) is correct for the state of being abandoned, which occurred and continued *before* the discovery. 'Was discovered' (past passive) is correct because the city *was* discovered by someone, not that it realized itself. The overall context is past events.",
     "explanationIncorrectB": "Option B uses present tenses, which are incorrect for a historical discovery that 'recently' happened.",
     "explanationIncorrectC": "Option C, 'was' (simple past), is less precise for the 'abandoned for centuries' duration that preceded the discovery. 'Discovered' (active voice) is incorrect as the city is the object of the discovery, not the subject performing it.",
     "explanationIncorrectD": "Option D, 'had been' is correct for the first blank, but 'discovered' (active voice) is incorrect for the second, as the city did not perform the action of discovering.",
@@ -2394,11 +1882,11 @@
       "D) It is a matter of stylistic choice rather than grammar."
     ],
     "followUpCorrectAnswer": "B",
-    "followUpIncorrect": "This is a tricky one that combines past perfect and passive voice. Ensure you understand sequence of events in the past and when to use passive voice."
+    "followUpIncorrect": "This question tests both verb tense and voice (active/passive). Ensure you understand sequence of events in the past and when to use passive voice."
   },
   {
-    "id": "q18",
-    "section": 7,
+    "id": "q74",
+    "section": 4,
     "question": "Even though she _______ for hours, Sarah still felt energetic enough to go for a run.",
     "options": [
       "A) had been working",
@@ -2423,8 +1911,8 @@
     "followUpIncorrect": "Focus on the nuance of the past perfect continuous. It's used when an action *was ongoing* for a duration *before another past event*."
   },
   {
-    "id": "q19",
-    "section": 7,
+    "id": "q75",
+    "section": 4,
     "question": "The economist predicted that by the end of the decade, artificial intelligence _______ many industries.",
     "options": [
       "A) transformed",
@@ -2449,8 +1937,8 @@
     "followUpIncorrect": "Practice using the future perfect tense to describe actions that will be finished before a specified future time."
   },
   {
-    "id": "q20",
-    "section": 7,
+    "id": "q76",
+    "section": 4,
     "question": "Before the invention of the internet, people _______ primarily on libraries and physical books for research.",
     "options": [
       "A) relied",
@@ -2468,21 +1956,21 @@
     "followUpCorrectOptions": [
       "A) If the sentence was describing current research habits.",
       "B) If the sentence was comparing research methods *prior to the internet* with methods *after* the internet, within a larger past narrative.",
-      "C) If the sentence was describing a future possibility.",
+      "C) If the sentence referred to a future event.",
       "D) If the sentence was a command."
     ],
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Consider whether a simple past tense is sufficient for past habits or states, or if a perfect tense is truly needed to show sequence or duration in relation to *another* past event."
   },
   {
-    "id": "q21",
-    "section": 7,
+    "id": "q77",
+    "section": 4,
     "question": "The scientific community _______ tirelessly for years to unravel the mysteries of dark matter, and significant progress _______ just last month.",
     "options": [
-      "A) had been working; was made",
-      "B) has been working; was made",
-      "C) worked; made",
-      "D) is working; makes"
+      "A) had been working",
+      "B) has been working",
+      "C) worked",
+      "D) is working"
     ],
     "correctAnswer": "B",
     "hint": "The first action is ongoing up to the present; the second is a specific, completed past action, and it happened passively.",
@@ -2501,8 +1989,8 @@
     "followUpIncorrect": "This question tests the careful distinction between present perfect continuous (ongoing to present) and simple past (completed at a specific past time), combined with passive voice."
   },
   {
-    "id": "q22",
-    "section": 7,
+    "id": "q78",
+    "section": 4,
     "question": "Many experts believe that by the middle of the 21st century, climate change _______ irreversible damage to the planet unless drastic measures _______ soon.",
     "options": [
       "A) caused; are taken",
@@ -2526,5 +2014,4 @@
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
   }
-
 ]
