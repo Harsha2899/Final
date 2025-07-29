@@ -8,6 +8,7 @@ let correctCount = 0;
 let incorrectCount = 0;
 let selectedSectionQuestions = []; // Holds questions for the currently selected section
 let currentSessionId = ""; // To store a unique ID for the current quiz session
+let currentSectionId = null; // To store the ID of the currently selected section
 
 // Make sure this URL is correct and active for your Google Apps Script
 const googleAppsScriptURL = "https://script.google.com/macros/s/AKfycbyhwDLRvLVO7YgwInO8Y29B9OrwZaUgTZ2lElvJMemouw3_o-2u83F-8HK2FhgiOAoCPQ/exec";
@@ -194,7 +195,7 @@ const sectionIntroMap = {
     Przykład: ❌ Which made the entire class laugh. (Ta klauzula względna musi odnosić się do rzeczownika w zdaniu głównym.)</p>
     <p><strong>Samodzielne frazy:</strong> Frazy przyimkowe, bezokolicznikowe lub imiesłowowe użyte jako zdania są fragmentami.<br>
     Przykład: ❌ To finish the project on time. (Fraza bezokolicznikowa. Co się stało, aby ukończyć projekt?)<br>
-    Przykład: ❌ Sitting by the window, watching the snow fall. (Fraza imiesłowowa. Kto siedział i patrzył?)</p>
+    Example: ❌ Sitting by the window, watching the snow fall. (Participial phrase. Who was sitting and watching?)</p>
 
     <p><strong>Przykłady (złe):</strong></p>
     <ul>
@@ -272,27 +273,13 @@ const sectionIntroMap = {
     </ul>
     <p><strong>Przykłady (złe):</strong></p>
     <ul>
-        <li>❌ <strong>Run-on (Fused Sentence):</strong> I like pizza it is my favorite food.<br>
-            Klauzula niezależna 1: I like pizza<br>
-            Klauzula niezależna 2: it is my favorite food<br>
-            Problem: Brak interpunkcji lub spójnika, które by je rozdzielały.</li>
-        <li>❌ <strong>Comma Splice:</strong> He studies hard, he wants to pass.<br>
-            Klauzula niezależna 1: He studies hard<br>
-            Klauzula niezależna 2: he wants to pass<br>
-            Problem: Tylko przecinek jest użyty do połączenia dwóch klauzul niezależnych.</li>
-        <li>❌ <strong>Run-on (Fused Sentence):</strong> We went to the store we bought milk we also got some bread.<br>
-            Klauzula niezależna 1: We went to the store<br>
-            Klauzula niezależna 2: we bought milk<br>
-            Klauzula niezależna 3: we also got some bread<br>
-            Problem: Wiele klauzul niezależnych bez odpowiedniego rozdzielenia.</li>
-        <li>❌ <strong>Comma Splice:</strong> The experiment failed, the results were inconclusive.<br>
-            Klauzula niezależna 1: The experiment failed<br>
-            Klauzula niezależna 2: the results were inconclusive<br>
-            Problem: Sam przecinek jest niewystarczający.</li>
-        <li>❌ <strong>Comma Splice (w stylu SAT):</strong> The new software promised to streamline operations, however, many users found it difficult to navigate.<br>
-            Klauzula niezależna 1: The new software promised to streamline operations<br>
-            Klauzula niezależna 2: many users found it difficult to navigate<br>
-            Problem: however jest przysłówkiem spójnikowym (conjunctive adverb), a nie spójnikiem współrzędnym (coordinating conjunction), więc nie może łączyć dwóch klauzul niezależnych tylko przecinkiem. Wymaga średnika przed nim lub kropki.</li>
+        <li>❌ Because it was raining. (Ponieważ padało. → Ale co się stało?)</li>
+        <li>❌ Running to the bus. (Biegnąc do autobusu. → Kto biegł? Co się stało?)</li>
+        <li>❌ After school ended. (Po tym jak skończyła się szkoła. → Co wtedy?)</li>
+        <li>❌ The student, tired from studying all night. (Uczeń, zmęczony nauką przez całą noc. → Ale co zrobił ten uczeń, albo jaki był?)</li>
+        <li>❌ Which made the entire class laugh. (Co rozśmieszyło całą klasę. → Odnosi się do czegoś, ale brakuje głównego zdania.)</li>
+        <li>❌ To prepare for the rigorous exam. (Aby przygotować się do rygorystycznego egzaminu. → Co zostało zrobione, aby się przygotować?)</li>
+        <li>❌ Having completed all the assignments. (Po ukończeniu wszystkich zadań. → Kto je ukończył i co się stało potem?)</li>
     </ul>
 
     <br>
@@ -1062,6 +1049,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // This block ensures the 'continueToEmail' button listener is always active if present on page load.
+  // However, because we are now dynamically recreating the buttons in showSectionList and backToIntro,
+  // this specific listener might not always be the active one. The dynamic creation in those functions
+  // is the primary way buttons get their listeners now. This block can technically remain but won't be
+  // the main source of the 'Take the Quiz' button functionality after initial page load.
+  const continueToEmailButtonOnLoad = document.getElementById("continueToEmail");
+  if (continueToEmailButtonOnLoad) {
+      continueToEmailButtonOnLoad.addEventListener("click", () => {
+          document.getElementById("introScreen").style.display = "none";
+          document.getElementById("emailScreen").style.display = "block";
+      });
+  }
+
   document.getElementById("showHint").addEventListener("click", () => {
     // Corrected to use selectedSectionQuestions and check if answered
     if (selectedSectionQuestions.length > 0 && !answeredQuestions.has(currentQuestionIndex)) {
@@ -1094,7 +1094,90 @@ document.addEventListener("DOMContentLoaded", () => {
       showScore();
     }
   });
+
+  // NEW: Attach event listeners for the 'Back' buttons.
+  // These *must* be attached to the buttons that exist in the initial index.html load.
+  // The dynamically created buttons in `showSectionList` and `backToIntro` will have
+  // their listeners attached when they are created. This ensures the ones present initially
+  // (e.g., if you refresh on the intro page) also work.
+  const backToSectionsButtonInitial = document.getElementById("backToSectionsButton");
+  if (backToSectionsButtonInitial) {
+      backToSectionsButtonInitial.addEventListener("click", backToSections);
+  }
+  
+  const backToIntroButtonInitial = document.getElementById("backToIntroButton");
+  if (backToIntroButtonInitial) {
+      backToIntroButtonInitial.addEventListener("click", backToIntro);
+  }
 });
+
+// Function to go back to sections list (Home page)
+function backToSections() {
+    // Hide all other screens
+    document.getElementById("introScreen").style.display = "none";
+    document.getElementById("emailScreen").style.display = "none";
+    document.getElementById("questionScreen").style.display = "none";
+    document.getElementById("scoreScreen").style.display = "none";
+    
+    // Show the home screen (section list)
+    document.getElementById("home").style.display = "block";
+
+    // Reset quiz state variables for a fresh start if a new quiz is selected
+    currentSectionId = null;
+    selectedSectionQuestions = [];
+    currentQuestionIndex = 0;
+    answeredQuestions.clear();
+    correctCount = 0;
+    incorrectCount = 0;
+    usedHint = false;
+    followUpAnswered.clear();
+
+    // Re-render the section list in case it needs to be updated (though not strictly necessary here)
+    showSectionList();
+}
+
+// Function to go back to the intro page from email page
+function backToIntro() {
+    document.getElementById("emailScreen").style.display = "none"; // Hide the email screen
+
+    if (currentSectionId && sectionIntroMap[currentSectionId]) { // Ensure a section was selected
+        // IMPORTANT: Clear the *entire* introScreen content first.
+        // This removes old content AND any previously created buttons/listeners.
+        document.getElementById("introScreen").innerHTML = ''; 
+
+        // Re-create and append the div for the introduction content
+        const sectionIntroContentDiv = document.createElement('div');
+        sectionIntroContentDiv.id = 'sectionIntroContent'; // Assign the correct ID
+        sectionIntroContentDiv.innerHTML = sectionIntroMap[currentSectionId]; // Populate with the specific intro HTML
+        document.getElementById('introScreen').appendChild(sectionIntroContentDiv); // Add to the intro screen
+
+        // Add a line break for visual spacing (adjust CSS if preferred)
+        document.getElementById('introScreen').appendChild(document.createElement('br'));
+
+        // Re-create and attach the "Take the Quiz" button
+        const takeQuizButton = document.createElement("button");
+        takeQuizButton.id = "continueToEmail";
+        takeQuizButton.innerText = "Take the Quiz";
+        takeQuizButton.addEventListener("click", () => {
+            document.getElementById("introScreen").style.display = "none";
+            document.getElementById("emailScreen").style.display = "block";
+        });
+        document.getElementById("introScreen").appendChild(takeQuizButton);
+
+        // Re-create and attach the "Back to Sections" button
+        const backToSectionsBtn = document.createElement("button");
+        backToSectionsBtn.id = "backToSectionsButton";
+        backToSectionsBtn.innerText = "Back to Sections";
+        backToSectionsBtn.addEventListener("click", backToSections);
+        document.getElementById("introScreen").appendChild(backToSectionsBtn);
+
+        document.getElementById("introScreen").style.display = "block"; // Finally, show the intro screen
+    } else {
+        // Fallback: If no section was properly tracked, go back to the main section list
+        document.getElementById("home").style.display = "block";
+    }
+}
+
 
 function showSectionList() {
   const sectionContainer = document.getElementById("sectionList");
@@ -1109,24 +1192,20 @@ function showSectionList() {
     // Section 8 has been removed as requested.
   };
 
-  sectionContainer.innerHTML = "";
+  sectionContainer.innerHTML = ""; // Clear existing section buttons
   uniqueSections.forEach(section => {
     // Only display buttons for sections that have intro content defined (1, 2, 3, 4)
     if (sectionIntroMap[section]) {
         const btn = document.createElement("button");
         btn.className = "section-button";
         btn.innerText = sectionNames[section] || `Section ${section}`; // Use defined name or default
-        btn.onclick = () => {
+        btn.onclick = () => { // This is the specific part that sets up the intro screen
+            currentSectionId = section; // Store the selected section ID
             // Filter questions for the selected section. For section 2, include original sections 2,3,4,5
             if (section === 2) {
-                // This is the core change: filter for questions from original sections 2, 3, 4, 5
                 selectedSectionQuestions = questions.filter(q => q.section >= 2 && q.section <= 5);
-                // Ensure we have between 20 and 25 questions for this combined section
-                // This is a simple slice to get roughly 20-25. You might want a more sophisticated selection
-                // if specific sub-topics *must* be included.
                 selectedSectionQuestions = selectedSectionQuestions.slice(0, 25); // Limit to first 25
             } else {
-                // For other sections, filter by the new section number (1, 3, 4)
                 selectedSectionQuestions = questions.filter(q => q.section === section);
             }
             currentQuestionIndex = 0;
@@ -1148,23 +1227,53 @@ function showSectionList() {
                 q.startTime = null; 
                 q.endTime = null;
             });
+
+            document.getElementById("home").style.display = "none"; // Hide home screen
+
             const introContent = sectionIntroMap[section];
-            document.getElementById("home").style.display = "none";
             if (introContent) {
-                document.getElementById("introScreen").innerHTML = introContent + `<br><button id="continueToEmail">Take the Quiz</button>`;
-                document.getElementById("introScreen").style.display = "block";
-                document.getElementById("continueToEmail").addEventListener("click", () => {
+                // IMPORTANT: Clear the *entire* introScreen content first.
+                // This prevents old content and buttons from accumulating or misbehaving.
+                document.getElementById("introScreen").innerHTML = ''; 
+
+                // Re-create and append the div for the introduction content
+                const sectionIntroContentDiv = document.createElement('div');
+                sectionIntroContentDiv.id = 'sectionIntroContent'; // Assign the correct ID
+                sectionIntroContentDiv.innerHTML = introContent;
+                document.getElementById('introScreen').appendChild(sectionIntroContentDiv);
+
+                // Add a line break for visual spacing (optional)
+                document.getElementById('introScreen').appendChild(document.createElement('br'));
+
+                // Re-create and attach the "Take the Quiz" button
+                const takeQuizButton = document.createElement("button");
+                takeQuizButton.id = "continueToEmail";
+                takeQuizButton.innerText = "Take the Quiz";
+                takeQuizButton.addEventListener("click", () => {
                     document.getElementById("introScreen").style.display = "none";
                     document.getElementById("emailScreen").style.display = "block";
                 });
+                document.getElementById("introScreen").appendChild(takeQuizButton);
+
+                // Re-create and attach the "Back to Sections" button
+                const backToSectionsBtn = document.createElement("button");
+                backToSectionsBtn.id = "backToSectionsButton";
+                backToSectionsBtn.innerText = "Back to Sections";
+                backToSectionsBtn.addEventListener("click", backToSections);
+                document.getElementById("introScreen").appendChild(backToSectionsBtn);
+
+                document.getElementById("introScreen").style.display = "block"; // Show the intro screen
+
             } else {
+                // If no intro content defined for some reason, go directly to email screen
                 document.getElementById("emailScreen").style.display = "block";
             }
         };
-        sectionContainer.appendChild(btn);
+        sectionContainer.appendChild(btn); // Append the section selection button
     }
   });
 }
+
 
 function showQuestion(index) {
   // Use selectedSectionQuestions for current question logic
@@ -1179,6 +1288,8 @@ function showQuestion(index) {
 
   document.getElementById("emailScreen").style.display = "none";
   document.getElementById("scoreScreen").style.display = "none";
+  document.getElementById("introScreen").style.display = "none"; // Ensure intro screen is hidden
+  document.getElementById("home").style.display = "none"; // Ensure home screen is hidden
   document.getElementById("questionScreen").style.display = "block";
 
   document.getElementById("questionNumber").innerText = `Question ${index + 1} of ${selectedSectionQuestions.length}`;
@@ -1523,6 +1634,7 @@ function showScore() {
     followUpAnswered.clear();
     selectedSectionQuestions = []; // Clear questions for previous section
     currentSessionId = "";
+    currentSectionId = null; // Reset currentSectionId
 
     document.getElementById("scoreScreen").style.display = "none";
     document.getElementById("emailInput").value = "";
