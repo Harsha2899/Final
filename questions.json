@@ -2013,5 +2013,1085 @@
     ],
     "followUpCorrectAnswer": "B",
     "followUpIncorrect": "Master the different conditional types. The first conditional is for real future possibilities."
-  }
+  },
+  {
+        "id": "q1",
+        "section": 5,
+        "question": "The man with all the birds ___ on my street.",
+        "options": [
+            "A) live",
+            "B) lives",
+            "C) living",
+            "D) lived"
+        ],
+        "correctAnswer": "B",
+        "hint": "The verb should agree with the subject, 'The man,' not the prepositional phrase 'with all the birds.'",
+        "feedback": {
+            "correct_no_hint": "✅ Great! You correctly identified the singular subject 'The man' and chose the singular verb 'lives.'",
+            "correct_hint": "✅ Good use of the hint. Remember, interrupting phrases don't change the subject-verb agreement.",
+            "incorrect_no_hint": "❌ The subject is 'The man' (singular), not 'the birds.' The correct verb should be 'lives.'",
+            "incorrect_hint": "❌ Even with the hint, you missed that 'The man' is the subject. He is one person, so the verb must be singular."
+        },
+        "followUpQuestion": "What is the true subject of the sentence?",
+        "followUpOptions": [
+            "A) birds",
+            "B) man",
+            "C) street",
+            "D) all"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q2",
+        "section": 5,
+        "question": "The players, as well as the captain, ___ to win.",
+        "options": [
+            "A) want",
+            "B) wants",
+            "C) wanted",
+            "D) wanting"
+        ],
+        "correctAnswer": "A",
+        "hint": "The phrase 'as well as...' does not create a compound subject. The verb agrees with the first subject.",
+        "feedback": {
+            "correct_no_hint": "✅ Excellent! You correctly identified that 'The players' is the plural subject and chose the plural verb 'want.'",
+            "correct_hint": "✅ Good job using the hint. Remember that phrases like 'as well as' don't make the subject plural.",
+            "incorrect_no_hint": "❌ The subject is 'The players' (plural), not 'the captain.' The verb should be 'want.'",
+            "incorrect_hint": "❌ The hint explains that 'The players' is the subject. Since it's plural, the verb should be 'want,' not 'wants.'"
+        },
+        "followUpQuestion": "When a subject is followed by 'as well as...', what does the verb agree with?",
+        "followUpOptions": [
+            "A) The first subject",
+            "B) The second subject",
+            "C) Both subjects",
+            "D) The closest subject"
+        ],
+        "followUpAnswer": "A"
+    },
+    {
+        "id": "q3",
+        "section": 5,
+        "question": "One of my sisters ___ going on a trip to France.",
+        "options": [
+            "A) is",
+            "B) are",
+            "C) were",
+            "D) have"
+        ],
+        "correctAnswer": "A",
+        "hint": "The subject is the indefinite pronoun 'One,' which is always singular.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! You identified the singular subject 'One' and correctly chose 'is.'",
+            "correct_hint": "✅ Good use of the hint. Indefinite pronouns like 'one' or 'everybody' are always singular.",
+            "incorrect_no_hint": "❌ The subject is 'One,' not 'sisters.' 'One' is singular, so the verb should be 'is.'",
+            "incorrect_hint": "❌ The hint points out that 'One' is the subject. Since it's singular, the correct verb is 'is.'"
+        },
+        "followUpQuestion": "Why is 'is' the correct verb?",
+        "followUpOptions": [
+            "A) The verb agrees with 'sisters'",
+            "B) 'One' is a singular subject",
+            "C) 'France' is a singular noun",
+            "D) The prepositional phrase 'of my sisters' makes the verb singular"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q4",
+        "section": 5,
+        "question": "The committee ___ these questions carefully.",
+        "options": [
+            "A) debate",
+            "B) debates",
+            "C) debated",
+            "D) debating"
+        ],
+        "correctAnswer": "B",
+        "hint": "A collective noun like 'committee' takes a singular verb when it acts as a single unit.",
+        "feedback": {
+            "correct_no_hint": "✅ Perfect! You knew that 'committee' acts as a singular unit and chose 'debates.'",
+            "correct_hint": "✅ Good use of the hint. 'Committee' is a collective noun, and in this context, it is a single body.",
+            "incorrect_no_hint": "❌ 'The committee' is a single group, so it's a singular subject. The correct verb is 'debates.'",
+            "incorrect_hint": "❌ The hint tells you that 'committee' is a singular collective noun. The verb should be singular to match."
+        },
+        "followUpQuestion": "What kind of noun is 'committee'?",
+        "followUpOptions": [
+            "A) Proper noun",
+            "B) Collective noun",
+            "C) Abstract noun",
+            "D) Common noun"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q5",
+        "section": 5,
+        "question": "There ___ fifteen candies in that bag. Now there ___ only one left!",
+        "options": [
+            "A) was, is",
+            "B) were, is",
+            "C) was, are",
+            "D) were, are"
+        ],
+        "correctAnswer": "B",
+        "hint": "In a 'There is/are' sentence, the verb agrees with the noun that follows it.",
+        "feedback": {
+            "correct_no_hint": "✅ Excellent! You correctly matched 'were' with 'candies' and 'is' with 'one.'",
+            "correct_hint": "✅ Good job using the hint. The verb in 'there' sentences is determined by the subject that follows it.",
+            "incorrect_no_hint": "❌ The first blank is plural because 'candies' is plural, and the second is singular because 'one' is singular. The correct answer is 'were, is.'",
+            "incorrect_hint": "❌ Remember the rule from the hint: 'were' agrees with 'candies' and 'is' agrees with 'one.' The order matters."
+        },
+        "followUpQuestion": "What is the subject of a sentence that begins with 'There'?",
+        "followUpOptions": [
+            "A) There",
+            "B) The verb",
+            "C) The noun that follows the verb",
+            "D) A pronoun"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q6",
+        "section": 5,
+        "question": "The number of new bands from my hometown of Austin ___ astonishing when you consider that the city used to be much smaller than it is today.",
+        "options": [
+            "A) are",
+            "B) were",
+            "C) is",
+            "D) astonish"
+        ],
+        "correctAnswer": "C",
+        "hint": "'The number of' is a singular subject, while 'a number of' is a plural subject.",
+        "feedback": {
+            "correct_no_hint": "✅ Perfect! You correctly identified 'The number of' as a singular subject and chose 'is.'",
+            "correct_hint": "✅ Great use of the hint. This is a common SAT trap, and you handled it well.",
+            "incorrect_no_hint": "❌ The subject is 'The number' (singular), not 'bands.' The verb should be 'is.'",
+            "incorrect_hint": "❌ The hint tells you that 'The number' is a singular subject. The correct verb is 'is.'"
+        },
+        "followUpQuestion": "How does the subject-verb agreement rule for 'a number of' differ from 'the number of'?",
+        "followUpOptions": [
+            "A) 'A number' is singular, 'the number' is plural",
+            "B) 'A number' is plural, 'the number' is singular",
+            "C) Both are always plural",
+            "D) Both are always singular"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q7",
+        "section": 5,
+        "question": "Both the egg and the eggplant, which have little in common with one another, ___ very versatile when it comes to preparing a home-cooked meal for your family.",
+        "options": [
+            "A) is",
+            "B) are",
+            "C) they are",
+            "D) was"
+        ],
+        "correctAnswer": "B",
+        "hint": "A compound subject joined by 'and' is plural.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Both the egg and the eggplant' is a plural subject, so 'are' is the right choice.",
+            "correct_hint": "✅ Good use of the hint. Compound subjects joined by 'and' are treated as plural.",
+            "incorrect_no_hint": "❌ The subject is plural because 'egg' and 'eggplant' are joined by 'and.' The correct verb is 'are.'",
+            "incorrect_hint": "❌ The hint reminds you that 'and' makes the subject plural. The verb must be 'are.'"
+        },
+        "followUpQuestion": "Why is the subject considered plural?",
+        "followUpOptions": [
+            "A) Because there are two nouns",
+            "B) Because of the words 'both' and 'and'",
+            "C) Because the nouns are inanimate",
+            "D) Because the verb is in the plural form"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q8",
+        "section": 5,
+        "question": "The use of various drinking vessels for different dining situations ___ a commonly accepted practice across many world cultures.",
+        "options": [
+            "A) are",
+            "B) were",
+            "C) is",
+            "D) being"
+        ],
+        "correctAnswer": "C",
+        "hint": "The subject is 'The use,' not the plural nouns in the prepositional phrases that follow it.",
+        "feedback": {
+            "correct_no_hint": "✅ Exactly! The subject is the singular noun 'The use,' so the verb 'is' is correct.",
+            "correct_hint": "✅ Great use of the hint. You correctly identified 'The use' as the subject and ignored the distracting prepositional phrases.",
+            "incorrect_no_hint": "❌ The subject is 'The use' (singular), not 'vessels.' The verb should be 'is.'",
+            "incorrect_hint": "❌ The hint points out that 'The use' is the subject. Since it's singular, the correct verb is 'is.'"
+        },
+        "followUpQuestion": "What is the subject of this sentence?",
+        "followUpOptions": [
+            "A) drinking vessels",
+            "B) dining situations",
+            "C) The use",
+            "D) world cultures"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q9",
+        "section": 5,
+        "question": "Neither smoking nor drinking alcoholic beverages ___ good for your long-term health.",
+        "options": [
+            "A) are",
+            "B) to smoke nor drinking alcoholic beverages is",
+            "C) smoking nor to drink alcoholic beverages are",
+            "D) is"
+        ],
+        "correctAnswer": "D",
+        "hint": "With 'neither/nor' subjects, the verb agrees with the subject closest to it.",
+        "feedback": {
+            "correct_no_hint": "✅ Right! 'Drinking alcoholic beverages' is a singular gerund phrase, so 'is' is the correct verb.",
+            "correct_hint": "✅ Good use of the hint. The closest subject determines the verb agreement in 'neither/nor' constructions.",
+            "incorrect_no_hint": "❌ The subject closest to the verb is 'drinking,' which is a singular gerund. The verb should be 'is.'",
+            "incorrect_hint": "❌ The hint reminds you to look at the closer subject, which is 'drinking.' The verb 'is' agrees with this singular subject."
+        },
+        "followUpQuestion": "When subjects are joined by 'neither/nor', the verb agrees with which subject?",
+        "followUpOptions": [
+            "A) The first subject",
+            "B) The last (closest) subject",
+            "C) Both subjects",
+            "D) The verb is always plural"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q10",
+        "section": 5,
+        "question": "The school of fish, hiding among the jagged coral, ___ easily seen by the hammerhead shark, despite the gloomy camouflage of the surroundings.",
+        "options": [
+            "A) were",
+            "B) seen",
+            "C) are easily seen",
+            "D) was easily seen"
+        ],
+        "correctAnswer": "D",
+        "hint": "A collective noun like 'school' is a singular subject and requires a singular verb.",
+        "feedback": {
+            "correct_no_hint": "✅ Awesome! You knew that 'The school' is a singular collective noun and correctly chose 'was.'",
+            "correct_hint": "✅ The hint helped you see that 'school' is a single unit, so a singular verb is correct.",
+            "incorrect_no_hint": "❌ The subject is 'The school' (singular), not 'fish.' The correct verb is 'was.'",
+            "incorrect_hint": "❌ The hint explains that 'school' is a singular collective noun. The verb must be singular, 'was.'"
+        },
+        "followUpQuestion": "Which word is the subject of this sentence?",
+        "followUpOptions": [
+            "A) fish",
+            "B) coral",
+            "C) school",
+            "D) shark"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q11",
+        "section": 5,
+        "question": "Which of the following is a complete sentence?",
+        "options": [
+            "A) The researchers, who were all from the same university and had worked on similar projects for years.",
+            "B) In the midst of the bustling city, a small, quiet cafe.",
+            "C) The ancient manuscript, once thought to be a legend, was finally unearthed by the archaeological team.",
+            "D) Having concluded the experiment, the data now being meticulously analyzed."
+        ],
+        "correctAnswer": "C",
+        "hint": "A complete sentence must contain a subject and a verb and express a complete thought.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option C contains a subject ('manuscript') and a verb ('was unearthed') and expresses a complete thought.",
+            "correct_hint": "✅ Great use of the hint! Options A, B, and D are all fragments that lack a main verb or a complete thought.",
+            "incorrect_no_hint": "❌ That is a fragment. Remember, a complete sentence needs a subject and a verb. Only option C has both.",
+            "incorrect_hint": "❌ Even with the hint, you missed that options A, B, and D are fragments. Look for a main subject and a main verb that work together."
+        },
+        "followUpQuestion": "Why are options A, B, and D considered fragments?",
+        "followUpOptions": [
+            "A) They all contain a verb but no subject",
+            "B) They all lack a main verb or a complete thought",
+            "C) They are too short to be complete sentences",
+            "D) They all begin with a dependent clause"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q12",
+        "section": 5,
+        "question": "The following is an incomplete sentence: The artist’s work, a striking blend of abstract forms and realistic portraits.\nWhich of the following would best correct the fragment?",
+        "options": [
+            "A) The artist’s work, a striking blend of abstract forms and realistic portraits, and it was admired by many.",
+            "B) The artist’s work, a striking blend of abstract forms and realistic portraits, was admired by many.",
+            "C) The artist’s work was a striking blend of abstract forms and realistic portraits.",
+            "D) A and B are both correct."
+        ],
+        "correctAnswer": "C",
+        "hint": "The original sentence is missing a main verb. You need to add a verb to make it a complete sentence.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option C corrects the fragment by directly adding the verb 'was' to the subject 'work.'",
+            "correct_hint": "✅ Great! The hint guided you to add a verb. Option C is the most direct and effective way to do this.",
+            "incorrect_no_hint": "❌ The original fragment lacks a verb. Only option C directly adds a verb to create a single, complete sentence. Options A and B are less effective or grammatically flawed.",
+            "incorrect_hint": "❌ The hint explains that a verb is needed. While option B adds a verb, option C is a more concise and direct correction of the fragment."
+        },
+        "followUpQuestion": "What part of the original fragment is missing?",
+        "followUpOptions": [
+            "A) A subject",
+            "B) A main verb",
+            "C) A complete thought",
+            "D) B and C are both missing"
+        ],
+        "followUpAnswer": "D"
+    },
+    {
+        "id": "q13",
+        "section": 5,
+        "question": "Which of the following is a run-on sentence?",
+        "options": [
+            "A) The new policy was a complete success, it increased employee morale and productivity.",
+            "B) After the thunderstorm had passed, the sky was a brilliant, cloudless blue.",
+            "C) The committee debated the proposal for hours, but they could not reach a consensus.",
+            "D) The speaker's argument was compelling; it swayed even the most skeptical members of the audience."
+        ],
+        "correctAnswer": "A",
+        "hint": "A run-on sentence incorrectly joins two independent clauses (complete sentences). A comma splice is a type of run-on sentence.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option A is a run-on sentence (specifically, a comma splice) because two independent clauses are joined by only a comma.",
+            "correct_hint": "✅ The hint helped you. Option A has two complete sentences joined only by a comma, which is an error.",
+            "incorrect_no_hint": "❌ Remember that a run-on sentence improperly joins two independent clauses. The other options are grammatically correct.",
+            "incorrect_hint": "❌ The hint explains that a run-on improperly joins two complete sentences. Only A does this by using a comma alone."
+        },
+        "followUpQuestion": "What is the specific error in option A?",
+        "followUpOptions": [
+            "A) It lacks a subject",
+            "B) It uses a comma to join two independent clauses",
+            "C) It has no punctuation",
+            "D) It is a dependent clause"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q14",
+        "section": 5,
+        "question": "The following is a run-on sentence: The intricate calculations were difficult, the students, however, managed to solve the problem before the deadline. Which of the following is the most effective way to correct this run-on sentence?",
+        "options": [
+            "A) The intricate calculations were difficult, but the students, however, managed to solve the problem before the deadline.",
+            "B) The intricate calculations were difficult; the students, however, managed to solve the problem before the deadline.",
+            "C) The intricate calculations were difficult the students, however, managed to solve the problem before the deadline.",
+            "D) The intricate calculations were difficult, the students managed to solve the problem before the deadline."
+        ],
+        "correctAnswer": "B",
+        "hint": "A semicolon is used to join two independent clauses that are closely related in meaning.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The semicolon in option B is the most effective way to connect two independent clauses linked by a conjunctive adverb like 'however.'",
+            "correct_hint": "✅ Great use of the hint! A semicolon correctly joins the two complete thoughts in this case.",
+            "incorrect_no_hint": "❌ The original is a comma splice. A comma cannot join two independent clauses. A semicolon is needed here.",
+            "incorrect_hint": "❌ The hint explains that a semicolon joins two independent clauses. Option B correctly uses a semicolon to fix the error."
+        },
+        "followUpQuestion": "Why is a semicolon a correct choice to fix this run-on sentence?",
+        "followUpOptions": [
+            "A) It creates a pause",
+            "B) It joins two independent clauses",
+            "C) It shows a cause-and-effect relationship",
+            "D) It is the only punctuation that can be used with 'however'"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q15",
+        "section": 5,
+        "question": "Which of the following is a sentence fragment?",
+        "options": [
+            "A) While the sun set over the horizon, casting long shadows across the valley.",
+            "B) The sun set over the horizon, casting long shadows across the valley.",
+            "C) The sun set, and it cast long shadows across the valley.",
+            "D) The sun's setting over the horizon cast long shadows across the valley."
+        ],
+        "correctAnswer": "A",
+        "hint": "A dependent clause is a sentence fragment. It begins with a word like 'while,' 'because,' or 'since' and cannot stand alone.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option A begins with the subordinating conjunction 'While,' making it a dependent clause (fragment).",
+            "correct_hint": "✅ Great use of the hint! The word 'While' signals that the clause is dependent and cannot be a complete sentence by itself.",
+            "incorrect_no_hint": "❌ Remember that a sentence fragment is an incomplete thought. Only option A is a dependent clause that cannot stand alone.",
+            "incorrect_hint": "❌ The hint explains that 'While' makes the sentence a dependent clause. That's why it's a fragment."
+        },
+        "followUpQuestion": "What makes option A a fragment?",
+        "followUpOptions": [
+            "A) It has no subject",
+            "B) It has no verb",
+            "C) It begins with a subordinating conjunction",
+            "D) It is too long to be a sentence"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q16",
+        "section": 5,
+        "question": "The scientist's discovery was groundbreaking, it opened up entirely new fields of research. The sentence above contains a punctuation error. Which of the following is the best way to correct it?",
+        "options": [
+            "A) The scientist's discovery was groundbreaking, and it opened up entirely new fields of research.",
+            "B) The scientist's discovery was groundbreaking; it opened up entirely new fields of research.",
+            "C) The scientist's discovery was groundbreaking. It opened up entirely new fields of research.",
+            "D) All of the above are correct."
+        ],
+        "correctAnswer": "D",
+        "hint": "A comma splice (a type of run-on) can be fixed in multiple ways: with a semicolon, a period, or a coordinating conjunction (like 'and') preceded by a comma.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The original sentence is a comma splice, and all three options provide a valid way to correct it.",
+            "correct_hint": "✅ You used the hint perfectly! All three options are grammatically sound ways to fix a comma splice.",
+            "incorrect_no_hint": "❌ The original sentence has a comma splice. All three options are grammatically correct ways to fix it. Only one of these options captures that fact.",
+            "incorrect_hint": "❌ The hint explains that there are multiple ways to fix a comma splice. Look at options A, B, and C again to see if they all work."
+        },
+        "followUpQuestion": "What is the grammatical error in the original sentence?",
+        "followUpOptions": [
+            "A) It is a sentence fragment",
+            "B) It is a run-on sentence",
+            "C) It is a comma splice",
+            "D) B and C are both correct"
+        ],
+        "followUpAnswer": "D"
+    },
+    {
+        "id": "q17",
+        "section": 5,
+        "question": "The committee’s findings were clear, the budget needed to be reallocated, in fact the committee recommended a complete overhaul of the financial structure. Which of the following is the most concise and effective way to correct this run-on sentence?",
+        "options": [
+            "A) The committee's findings were clear: the budget needed to be reallocated, in fact, the committee recommended a complete overhaul of the financial structure.",
+            "B) The committee's findings were clear: the budget needed to be reallocated, and a complete overhaul of the financial structure was recommended.",
+            "C) The committee’s findings were clear, the budget needed to be reallocated. In fact, a complete overhaul of the financial structure was recommended.",
+            "D) The committee's findings were clear; in fact, the committee recommended a complete overhaul of the financial structure, and the budget needed to be reallocated."
+        ],
+        "correctAnswer": "B",
+        "hint": "Look for the option that combines the two ideas (reallocation and overhaul) most efficiently and grammatically.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option B effectively corrects the run-on sentence by using a colon and then combining the two related ideas concisely.",
+            "correct_hint": "✅ Great use of the hint! Option B is the most concise and grammatically sound correction of the long run-on sentence.",
+            "incorrect_no_hint": "❌ The original is a long run-on. Look for the option that not only fixes the grammar but also combines the ideas concisely.",
+            "incorrect_hint": "❌ The hint suggests you look for the most concise option. Options A, C, and D are wordy or grammatically flawed. Option B is the best choice."
+        },
+        "followUpQuestion": "How does a colon correctly fix the sentence?",
+        "followUpOptions": [
+            "A) It joins two independent clauses",
+            "B) It introduces an explanation or elaboration",
+            "C) It adds a pause to the sentence",
+            "D) It is used to connect a subject to a verb"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q18",
+        "section": 5,
+        "question": "The following text is an excerpt from a student's essay: Many different cultures have used spices for centuries. Not only to flavor food but also for medicinal purposes. Which revision correctly combines the sentences into one complete sentence?",
+        "options": [
+            "A) Many different cultures have used spices for centuries not only to flavor food but also for medicinal purposes.",
+            "B) Many different cultures have used spices for centuries, not only to flavor food, but also for medicinal purposes.",
+            "C) Many different cultures have used spices for centuries; not only to flavor food but also for medicinal purposes.",
+            "D) Many different cultures have used spices for centuries. Not only to flavor food, but also for medicinal purposes."
+        ],
+        "correctAnswer": "A",
+        "hint": "The second 'sentence' is a fragment that should be attached to the first sentence. Commas are not needed because the phrase is essential to the meaning.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option A correctly joins the fragment to the independent clause without unnecessary punctuation.",
+            "correct_hint": "✅ Good use of the hint! You correctly identified that the second part is a phrase that should be attached to the first sentence.",
+            "incorrect_no_hint": "❌ The second part is a fragment that needs to be attached to the main sentence. Option A does this correctly and concisely.",
+            "incorrect_hint": "❌ The hint explains that a comma is not needed to attach the phrase to the main sentence. Option A is the correct and most concise choice."
+        },
+        "followUpQuestion": "Why is the second sentence in the original text a fragment?",
+        "followUpOptions": [
+            "A) It has no subject or verb",
+            "B) It starts with a negative word",
+            "C) It is a dependent clause",
+            "D) It is a participial phrase"
+        ],
+        "followUpAnswer": "A"
+    },
+    {
+        "id": "q19",
+        "section": 5,
+        "question": "Which choice creates a complete sentence?",
+        "options": [
+            "A) Because of the unexpected snowstorm that closed down all major highways.",
+            "B) A new species of beetle, discovered deep in the rainforest of Costa Rica.",
+            "C) Having studied the complex data for months, the research team finally presented their findings.",
+            "D) The study's results, which were both surprising and significant."
+        ],
+        "correctAnswer": "C",
+        "hint": "Look for the option that contains both a subject and a verb that can stand alone as a complete thought.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Option C contains the subject 'the research team' and the verb 'presented.'",
+            "correct_hint": "✅ Good use of the hint! Options A, B, and D are all fragments because they lack a main subject/verb combination that forms a complete thought.",
+            "incorrect_no_hint": "❌ That is a fragment. Only option C has a subject and a verb that form a complete sentence.",
+            "incorrect_hint": "❌ The hint reminds you to look for a complete subject-verb combination. 'The research team' and 'presented' are the subject and verb in option C."
+        },
+        "followUpQuestion": "What grammatical element is missing from options A, B, and D?",
+        "followUpOptions": [
+            "A) A subject",
+            "B) A verb",
+            "C) Both a subject and a verb",
+            "D) A complete thought"
+        ],
+        "followUpAnswer": "D"
+    },
+    {
+        "id": "q20",
+        "section": 5,
+        "question": "The following is a run-on sentence: The government has invested heavily in renewable energy, it hopes to reduce the country’s reliance on fossil fuels. Which of the following options most effectively corrects this sentence?",
+        "options": [
+            "A) The government has invested heavily in renewable energy; it hopes to reduce the country’s reliance on fossil fuels.",
+            "B) The government has invested heavily in renewable energy, and it hopes to reduce the country’s reliance on fossil fuels.",
+            "C) The government has invested heavily in renewable energy because it hopes to reduce the country's reliance on fossil fuels.",
+            "D) All of the above are effective corrections."
+        ],
+        "correctAnswer": "D",
+        "hint": "A run-on sentence can be corrected in several ways: with a semicolon, a period, a comma + a coordinating conjunction, or a subordinating conjunction.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The original is a comma splice, and options A, B, and C are all grammatically sound and effective ways to fix it.",
+            "correct_hint": "✅ Great use of the hint! You correctly identified that all three options are valid fixes for the run-on sentence.",
+            "incorrect_no_hint": "❌ The original is a comma splice. Look closely—all three options are actually grammatically correct ways to fix it.",
+            "incorrect_hint": "❌ The hint explains that all three options represent valid ways to fix a run-on sentence. Be careful to consider all possibilities."
+        },
+        "followUpQuestion": "What type of clause is 'because it hopes to reduce the country's reliance on fossil fuels'?",
+        "followUpOptions": [
+            "A) Independent clause",
+            "B) Dependent clause",
+            "C) Prepositional phrase",
+            "D) Appositive phrase"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q21",
+        "section": 5,
+        "question": "In a new study, researchers found that when a person consistently practices mindfulness, ________ experiences a significant reduction in stress levels.",
+        "options": [
+            "A) they",
+            "B) he or she",
+            "C) it",
+            "D) one"
+        ],
+        "correctAnswer": "B",
+        "hint": "The antecedent 'a person' is singular. In formal writing, you must use a singular pronoun to refer to it.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The antecedent 'a person' is singular, so the formal singular pronoun 'he or she' is the correct choice.",
+            "correct_hint": "✅ Good use of the hint! You correctly identified the singular antecedent and chose the appropriate singular pronoun.",
+            "incorrect_no_hint": "❌ 'A person' is singular, so a singular pronoun is needed. 'They' is plural. The correct formal pronoun is 'he or she.'",
+            "incorrect_hint": "❌ The hint reminds you that 'a person' is singular. A plural pronoun like 'they' does not agree with it."
+        },
+        "followUpQuestion": "What is the antecedent of the pronoun in this sentence?",
+        "followUpOptions": [
+            "A) researchers",
+            "B) a person",
+            "C) mindfulness",
+            "D) a study"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q22",
+        "section": 5,
+        "question": "The marketing team, despite its initial success, was unable to maintain the momentum, and eventually ________ had to reevaluate its entire strategy.",
+        "options": [
+            "A) they",
+            "B) it",
+            "C) them",
+            "D) one"
+        ],
+        "correctAnswer": "B",
+        "hint": "'The marketing team' is a collective noun acting as a single, unified entity.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'The marketing team' is a collective noun acting as a single unit, so the singular pronoun 'it' is the correct choice.",
+            "correct_hint": "✅ Good use of the hint! The team is acting as one entity, so the singular pronoun 'it' is appropriate.",
+            "incorrect_no_no_hint": "❌ 'The marketing team' is treated as a single entity here. A plural pronoun like 'they' is incorrect.",
+            "incorrect_hint": "❌ The hint explains that the team is acting as a single unit. Therefore, a singular pronoun like 'it' is required."
+        },
+        "followUpQuestion": "Why is 'it' the correct pronoun?",
+        "followUpOptions": [
+            "A) It refers to the momentum",
+            "B) 'Team' is a singular noun",
+            "C) 'Marketing' is an adjective",
+            "D) It is a collective noun acting as a single unit"
+        ],
+        "followUpAnswer": "D"
+    },
+    {
+        "id": "q23",
+        "section": 5,
+        "question": "Although each of the ancient scrolls was painstakingly preserved by the museum's curators, ________ remained too fragile to be handled without the use of protective gloves.",
+        "options": [
+            "A) they",
+            "B) it",
+            "C) them",
+            "D) these"
+        ],
+        "correctAnswer": "B",
+        "hint": "The word 'each' is a singular indefinite pronoun, even though it refers to a group of items.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The subject 'each' is singular, so the singular pronoun 'it' is the right choice.",
+            "correct_hint": "✅ The hint helped you see that 'each' is a singular pronoun, requiring the singular pronoun 'it.'",
+            "incorrect_no_hint": "❌ 'Each' is a singular pronoun. The plural pronouns 'they' and 'them' are incorrect.",
+            "incorrect_hint": "❌ Remember the hint: the word 'each' is always singular. You need to use a singular pronoun like 'it.'"
+        },
+        "followUpQuestion": "What is the pronoun's antecedent?",
+        "followUpOptions": [
+            "A) ancient scrolls",
+            "B) curators",
+            "C) each",
+            "D) protective gloves"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q24",
+        "section": 5,
+        "question": "Neither the manager nor the employees were happy with the new safety protocol, as ________ felt the changes would slow down productivity.",
+        "options": [
+            "A) he or she",
+            "B) they",
+            "C) it",
+            "D) them"
+        ],
+        "correctAnswer": "B",
+        "hint": "When 'nor' connects a singular and a plural subject, the pronoun agrees with the subject closest to it.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The pronoun agrees with the closest antecedent, 'employees,' which is plural, so 'they' is the correct choice.",
+            "correct_hint": "✅ Great use of the hint! You correctly identified the closest antecedent and matched it with the plural pronoun.",
+            "incorrect_no_hint": "❌ The pronoun should agree with the closest noun, 'employees,' which is plural. Therefore, 'they' is the correct pronoun.",
+            "incorrect_hint": "❌ The hint reminds you to check the closest noun. Since 'employees' is plural, the pronoun must be 'they.'"
+        },
+        "followUpQuestion": "Why is 'they' the correct pronoun in this context?",
+        "followUpOptions": [
+            "A) 'Neither' makes it plural",
+            "B) The pronoun agrees with the closer noun, 'employees'",
+            "C) The manager is included",
+            "D) 'Neither' is always plural"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q25",
+        "section": 5,
+        "question": "When the committee, after hours of deliberation, finally presented ________ findings, the entire room was surprised by the unexpected conclusion.",
+        "options": [
+            "A) its",
+            "B) their",
+            "C) them",
+            "D) it's"
+        ],
+        "correctAnswer": "A",
+        "hint": "The pronoun refers to 'the committee,' a collective noun acting as a single, unified body.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The committee is acting as one unit, so the singular possessive pronoun 'its' is the right choice.",
+            "correct_hint": "✅ Good job using the hint! The committee is presented as a single entity, not as individual members.",
+            "incorrect_no_hint": "❌ 'Committee' is a collective noun. It takes a singular pronoun when it is acting as a single body. The correct choice is 'its.'",
+            "incorrect_hint": "❌ The hint explains that 'committee' is a single body. You need to use the singular possessive pronoun 'its.'"
+        },
+        "followUpQuestion": "In this sentence, how is the committee acting?",
+        "followUpOptions": [
+            "A) As a group of individuals",
+            "B) As a single, unified body",
+            "C) As an inanimate object",
+            "D) As a plural entity"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q26",
+        "section": 5,
+        "question": "A common misconception about the woolly mammoth is that ________ only lived in cold, icy environments, but fossil records show that some populations also thrived in temperate climates.",
+        "options": [
+            "A) they",
+            "B) he or she",
+            "C) it",
+            "D) those"
+        ],
+        "correctAnswer": "C",
+        "hint": "The antecedent 'the woolly mammoth' is a singular noun referring to a species.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The antecedent 'the woolly mammoth' is singular, so the singular pronoun 'it' is the correct choice.",
+            "correct_hint": "✅ The hint helped you see that 'the woolly mammoth' is singular and requires a singular pronoun.",
+            "incorrect_no_hint": "❌ The antecedent 'the woolly mammoth' is singular. 'They' and 'those' are plural. The correct pronoun is 'it.'",
+            "incorrect_hint": "❌ The hint reminds you that the subject 'the woolly mammoth' is singular. You must use the singular pronoun 'it.'"
+        },
+        "followUpQuestion": "What is the antecedent of the pronoun?",
+        "followUpOptions": [
+            "A) woolly mammoth",
+            "B) misconception",
+            "C) fossil records",
+            "D) populations"
+        ],
+        "followUpAnswer": "A"
+    },
+    {
+        "id": "q27",
+        "section": 5,
+        "question": "The group of students, after a lively debate, decided to donate ________ fundraising money to the local animal shelter.",
+        "options": [
+            "A) their",
+            "B) its",
+            "C) it's",
+            "D) them"
+        ],
+        "correctAnswer": "A",
+        "hint": "The context implies that the individual members of the group are acting separately by contributing their own money.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The context suggests that the individual students were donating, so the plural pronoun 'their' is the right choice.",
+            "correct_hint": "✅ Good job! The hint helped you see that the students were acting individually, not as a single unit.",
+            "incorrect_no_hint": "❌ The context of donating money suggests the individual students' contributions. The pronoun should be 'their,' not 'its.'",
+            "incorrect_hint": "❌ The hint explains that the group is acting as individuals in this case. Therefore, the plural pronoun 'their' is required."
+        },
+        "followUpQuestion": "Why is 'their' the correct pronoun in this case?",
+        "followUpOptions": [
+            "A) 'Group' is a plural noun",
+            "B) The students were acting as individuals",
+            "C) It agrees with 'debate'",
+            "D) 'Group' is a collective noun acting as a single unit"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q28",
+        "section": 5,
+        "question": "Anyone who wishes to participate in the competitive debate tournament must submit ________ registration form to the office by Friday.",
+        "options": [
+            "A) their",
+            "B) his or her",
+            "C) them",
+            "D) one's"
+        ],
+        "correctAnswer": "B",
+        "hint": "Indefinite pronouns like 'anyone,' 'everyone,' and 'each' are singular.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Anyone' is a singular indefinite pronoun, so the singular 'his or her' is the right choice.",
+            "correct_hint": "✅ The hint helped you see that 'anyone' is singular, so a singular pronoun is needed.",
+            "incorrect_no_hint": "❌ 'Anyone' is singular, so the pronoun must be singular. 'Their' and 'them' are plural. The correct choice is 'his or her.'",
+            "incorrect_hint": "❌ The hint reminds you that 'anyone' is a singular pronoun. The correct choice is the singular 'his or her.'"
+        },
+        "followUpQuestion": "What kind of pronoun is 'anyone'?",
+        "followUpOptions": [
+            "A) Reflexive pronoun",
+            "B) Indefinite pronoun",
+            "C) Possessive pronoun",
+            "D) Demonstrative pronoun"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q29",
+        "section": 5,
+        "question": "The archeological team was thrilled with the discovery of the lost city; ________ celebrated by toasting to their success with sparkling cider.",
+        "options": [
+            "A) it",
+            "B) he or she",
+            "C) them",
+            "D) they"
+        ],
+        "correctAnswer": "D",
+        "hint": "The context of 'celebrated by toasting' suggests that the members of the team are acting as individuals.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The context of the sentence shows the individual members of the team acting, so the plural pronoun 'they' is correct.",
+            "correct_hint": "✅ Great use of the hint! You correctly inferred that the team was acting as individuals, not as a single unit.",
+            "incorrect_no_hint": "❌ The 'celebrating' refers to the individual members of the team, so the plural pronoun 'they' is the right choice.",
+            "incorrect_hint": "❌ The hint tells you that the team is acting as individuals here. The plural pronoun 'they' is required."
+        },
+        "followUpQuestion": "Why is 'they' the correct pronoun?",
+        "followUpOptions": [
+            "A) The subject is 'the lost city'",
+            "B) The team is being treated as a group of individuals",
+            "C) 'Team' is always a plural noun",
+            "D) It agrees with 'success'"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q30",
+        "section": 5,
+        "question": "The company, in a move to increase employee satisfaction, announced that ________ would be offering a new flexible work schedule starting next month.",
+        "options": [
+            "A) they",
+            "B) it",
+            "C) its",
+            "D) one"
+        ],
+        "correctAnswer": "B",
+        "hint": "The pronoun refers to 'The company,' a collective noun acting as a single, unified entity.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The company is acting as a single body, so the singular pronoun 'it' is the correct choice.",
+            "correct_hint": "✅ The hint helped you see that 'the company' is a single entity, requiring a singular pronoun.",
+            "incorrect_no_hint": "❌ 'The company' is treated as a single unit making a decision. The correct pronoun is 'it,' not 'they.'",
+            "incorrect_hint": "❌ The hint explains that 'the company' is a single body. You need to use the singular pronoun 'it.'"
+        },
+        "followUpQuestion": "In this sentence, how is the company being treated?",
+        "followUpOptions": [
+            "A) As a plural entity",
+            "B) As a group of individuals",
+            "C) As a single, unified body",
+            "D) As an uncountable noun"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q31",
+        "section": 5,
+        "question": "While my friends ___ the latest blockbuster film, I will be finishing my book report for tomorrow.",
+        "options": [
+            "A) were discussing",
+            "B) are discussing",
+            "C) discussed",
+            "D) have discussed"
+        ],
+        "correctAnswer": "B",
+        "hint": "The first clause must be in a tense that logically aligns with the future tense of the second clause ('I will be finishing').",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The future continuous tense of the second clause requires a present continuous tense in the first clause to create a logical sequence of events.",
+            "correct_hint": "✅ Great use of the hint! 'Are discussing' is in the present continuous, which logically pairs with the future action.",
+            "incorrect_no_hint": "❌ The first clause needs to be in a present tense to logically connect with the future tense of the second. The correct tense is 'are discussing.'",
+            "incorrect_hint": "❌ The hint explains the need for a logical tense relationship. The first action is happening now, while the second will happen in the future."
+        },
+        "followUpQuestion": "What tense is 'will be finishing'?",
+        "followUpOptions": [
+            "A) Simple future",
+            "B) Future perfect",
+            "C) Future continuous",
+            "D) Present continuous"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q32",
+        "section": 5,
+        "question": "By the time the final witness testified, the jury ___ already reached a decision regarding the defendant's innocence.",
+        "options": [
+            "A) had",
+            "B) have",
+            "C) will have",
+            "D) has"
+        ],
+        "correctAnswer": "A",
+        "hint": "The sentence describes two past actions. The past perfect tense is used for the action that happened first.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The past perfect tense ('had reached') is correctly used for the action that was completed before another past action ('testified').",
+            "correct_hint": "✅ Good job! The hint confirms that the past perfect tense is the right choice for the earlier action in the past.",
+            "incorrect_no_hint": "❌ The jury reaching a decision happened before the witness testified. The past perfect tense 'had' is required to show the earlier past action.",
+            "incorrect_hint": "❌ The hint explains that the past perfect tense is needed. 'Had already reached' is the correct form."
+        },
+        "followUpQuestion": "What is the purpose of the past perfect tense in this sentence?",
+        "followUpOptions": [
+            "A) To show a future action",
+            "B) To show a past action that happened before another past action",
+            "C) To show a hypothetical situation",
+            "D) To show an ongoing action in the past"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q33",
+        "section": 5,
+        "question": "Although many tourists believed that the ancient ruins were entirely fictional, historical records now ___ their existence.",
+        "options": [
+            "A) proves",
+            "B) will prove",
+            "C) prove",
+            "D) proved"
+        ],
+        "correctAnswer": "C",
+        "hint": "The subject 'historical records' is plural. The verb must agree with this plural subject.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Historical records' is a plural subject, so the verb must be the plural form 'prove.'",
+            "correct_hint": "✅ The hint helped you remember that plural subjects take plural verbs in the simple present tense.",
+            "incorrect_no_hint": "❌ The subject 'historical records' is plural. The verb 'proves' is singular. The correct verb is 'prove.'",
+            "incorrect_hint": "❌ The hint reminds you that 'historical records' is plural. You must use the plural form of the verb, 'prove.'"
+        },
+        "followUpQuestion": "What is the subject of the second clause?",
+        "followUpOptions": [
+            "A) tourists",
+            "B) ruins",
+            "C) historical records",
+            "D) existence"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q34",
+        "section": 5,
+        "question": "Since the company introduced its new line of products, it ___ overwhelmingly positive reviews from customers.",
+        "options": [
+            "A) was receiving",
+            "B) has been receiving",
+            "C) has introduced",
+            "D) will receive"
+        ],
+        "correctAnswer": "B",
+        "hint": "The present perfect continuous tense is used to describe an action that started in the past and is still ongoing.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Introduced' correctly sets a past time, and 'has been receiving' correctly shows an action that started then and continues to the present.",
+            "correct_hint": "✅ The hint explains the present perfect continuous tense. This is the correct tense to show an action that began in the past and continues to the present.",
+            "incorrect_no_hint": "❌ The second part of the sentence describes an ongoing action. The present perfect continuous, 'has been receiving,' is the correct tense.",
+            "incorrect_hint": "❌ The hint explains the function of the present perfect continuous tense. The correct form is 'has been receiving.'"
+        },
+        "followUpQuestion": "What tense is 'has been receiving'?",
+        "followUpOptions": [
+            "A) Simple past",
+            "B) Simple present",
+            "C) Present perfect",
+            "D) Present perfect continuous"
+        ],
+        "followUpAnswer": "D"
+    },
+    {
+        "id": "q35",
+        "section": 5,
+        "question": "Researchers predict that by the year 2030, they ___ a method to reverse the effects of aging.",
+        "options": [
+            "A) will discover",
+            "B) will be discovering",
+            "C) will have discovered",
+            "D) have discovered"
+        ],
+        "correctAnswer": "C",
+        "hint": "Use the future perfect tense for an action that will be completed by a specific time in the future.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The phrase 'by the year 2030' requires the future perfect tense 'will have discovered.'",
+            "correct_hint": "✅ Great use of the hint! The future perfect tense is perfect for expressing a completed action before a future deadline.",
+            "incorrect_no_hint": "❌ 'By the year 2030' indicates a completed future action. The correct tense is the future perfect, 'will have discovered.'",
+            "incorrect_hint": "❌ The hint explains that the future perfect tense is needed. 'Will have discovered' is the correct form."
+        },
+        "followUpQuestion": "What tense is used to describe an action that will be completed by a specific point in the future?",
+        "followUpOptions": [
+            "A) Future continuous",
+            "B) Simple future",
+            "C) Future perfect",
+            "D) Future perfect continuous"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q36",
+        "section": 5,
+        "question": "The classic film, which ___ in 1942, still resonates with audiences around the world.",
+        "options": [
+            "A) was releasing",
+            "B) released",
+            "C) was released",
+            "D) has released"
+        ],
+        "correctAnswer": "C",
+        "hint": "The film was the recipient of the action 'released.' This requires the passive voice.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! The passive voice form 'was released' is needed to show that the film was the object of the action.",
+            "correct_hint": "✅ The hint guided you to the passive voice. The simple past passive 'was released' is the correct choice.",
+            "incorrect_no_hint": "❌ The film was released by someone, so the passive voice is needed. 'Was releasing' is active. The correct form is 'was released.'",
+            "incorrect_hint": "❌ The hint tells you that the passive voice is needed. 'Was released' is the correct passive form for a completed past action."
+        },
+        "followUpQuestion": "Why is the passive voice required for the verb?",
+        "followUpOptions": [
+            "A) The film is the subject of the action",
+            "B) The film is the recipient of the action",
+            "C) The action happened in the past",
+            "D) The verb is in the present tense"
+        ],
+        "followUpAnswer": "B"
+    },
+    {
+        "id": "q37",
+        "section": 5,
+        "question": "The new intern not only demonstrates a strong work ethic, but also ___ the team with several difficult projects.",
+        "options": [
+            "A) had helped",
+            "B) demonstrated",
+            "C) helps",
+            "D) has demonstrated"
+        ],
+        "correctAnswer": "C",
+        "hint": "Verbs in a 'not only... but also...' construction must be in the same tense (parallel structure).",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Demonstrates' and 'helps' are both in the simple present tense, creating the required parallel structure.",
+            "correct_hint": "✅ The hint explains parallel structure. The verbs 'demonstrates' and 'helps' match correctly.",
+            "incorrect_no_hint": "❌ The verbs in this construction must be parallel. 'Demonstrates' is present tense, so the second verb must be 'helps.'",
+            "incorrect_hint": "❌ The hint reminds you to match the verbs. 'Demonstrates' is present tense, so 'helps' is the correct parallel verb."
+        },
+        "followUpQuestion": "What is the grammatical principle that requires both verbs to be in the same tense?",
+        "followUpOptions": [
+            "A) Subject-verb agreement",
+            "B) Pronoun agreement",
+            "C) Parallel structure",
+            "D) Subjunctive mood"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q38",
+        "section": 5,
+        "question": "If the board of directors ___ to approve the new policy, the company's financial standing would be much more secure.",
+        "options": [
+            "A) was",
+            "B) were",
+            "C) would",
+            "D) approves"
+        ],
+        "correctAnswer": "B",
+        "hint": "The subjunctive mood is used for hypothetical or unreal conditions. The correct form is 'if... were to approve'.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! This sentence uses the subjunctive mood for a hypothetical situation, and the correct form is 'were to approve.'",
+            "correct_hint": "✅ Great use of the hint! The subjunctive mood is correctly used for this hypothetical condition.",
+            "incorrect_no_hint": "❌ This is a hypothetical condition, so it requires the subjunctive mood. The correct form is 'were to approve,' not 'was to approve.'",
+            "incorrect_hint": "❌ The hint explains that the subjunctive mood is needed. The correct form is 'were to approve.'"
+        },
+        "followUpQuestion": "What does the subjunctive mood express in this sentence?",
+        "followUpOptions": [
+            "A) A command or request",
+            "B) A factual statement",
+            "C) A hypothetical or unreal condition",
+            "D) An action that has already happened"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q39",
+        "section": 5,
+        "question": "The sun ___ in the west, a fact that ___ true for billions of years.",
+        "options": [
+            "A) is setting, has been",
+            "B) sets, has been",
+            "C) is setting, is",
+            "D) sets, is"
+        ],
+        "correctAnswer": "D",
+        "hint": "A timeless or habitual fact should be expressed using the simple present tense.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! Both 'sets' and 'is true' use the simple present tense to describe timeless, habitual facts.",
+            "correct_hint": "✅ Good job using the hint! The simple present tense is correctly used for both of these general truths.",
+            "incorrect_no_hint": "❌ This sentence states two timeless truths. The simple present tense is required for both. The correct verbs are 'sets' and 'is true.'",
+            "incorrect_hint": "❌ The hint tells you to use the simple present for timeless facts. The correct verbs are 'sets' and 'is true.'"
+        },
+        "followUpQuestion": "What tense is used to describe a general or timeless truth?",
+        "followUpOptions": [
+            "A) Present continuous",
+            "B) Simple past",
+            "C) Simple present",
+            "D) Present perfect"
+        ],
+        "followUpAnswer": "C"
+    },
+    {
+        "id": "q40",
+        "section": 5,
+        "question": "The company ___ with low employee morale for years before it finally ___ a new wellness program.",
+        "options": [
+            "A) struggled, is implementing",
+            "B) struggled, implemented",
+            "C) had struggled, implemented",
+            "D) has struggled, implemented"
+        ],
+        "correctAnswer": "C",
+        "hint": "The past perfect tense is used for an action that happened before another action in the past.",
+        "feedback": {
+            "correct_no_hint": "✅ Correct! 'Had struggled' shows the action that happened first, and 'implemented' shows the action that happened later in the past.",
+            "correct_hint": "✅ The hint explains the past perfect tense. 'Had struggled' correctly describes the earlier past action.",
+            "incorrect_no_hint": "❌ Two past actions are described. The one that happened first ('struggled') should be in the past perfect ('had struggled'), while the second is in the simple past ('implemented').",
+            "incorrect_hint": "❌ The hint tells you that 'had struggled' is the correct tense for the action that happened first in the past."
+        },
+        "followUpQuestion": "What is the correct sequence of tenses for two completed past actions, where one happened before the other?",
+        "followUpOptions": [
+            "A) Simple past, simple past",
+            "B) Past perfect, simple past",
+            "C) Simple past, past perfect",
+            "D) Past continuous, simple past"
+        ],
+        "followUpAnswer": "B"
+    }
 ]
