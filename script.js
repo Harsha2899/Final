@@ -960,38 +960,6 @@ const sectionIntroMap = {
         <li>He thinks practice is important. (Present + Present)</li>
     </ul>
 
-    <h2>🇵🇱 3. Polish vs. English: Key Tense Differences</h2>
-    <table style="width:100%; border-collapse: collapse;">
-        <thead>
-            <tr>
-                <th style="border: 1px solid black; padding: 8px;">Challenge</th>
-                <th style="border: 1px solid black; padding: 8px;">Polish Example</th>
-                <th style="border: 1px solid black; padding: 8px;">Common Mistake</th>
-                <th style="border: 1px solid black; padding: 8px;">Correct English</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="border: 1px solid black; padding: 8px;">Present Perfect</td>
-                <td style="border: 1px solid black; padding: 8px;">Zjadłem obiad.</td>
-                <td style="border: 1px solid black; padding: 8px;">I ate (instead of: I have eaten).</td>
-                <td style="border: 1px solid black; padding: 8px;">I have eaten (if time not specified or result matters)</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid black; padding: 8px;">Habitual Actions</td>
-                <td style="border: 1px solid black; padding: 8px;">Czytam książkę.</td>
-                <td style="border: 1px solid black; padding: 8px;">I am reading (used for habitual).</td>
-                <td style="border: 1px solid black; padding: 8px;">I read books (Simple Present)</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid black; padding: 8px;">Perfective Aspect</td>
-                <td style="border: 1px solid black; padding: 8px;">Przeczytam książkę.</td>
-                <td style="border: 1px solid black; padding: 8px;">I will read (confusing Future Perfect).</td>
-                <td style="border: 1px solid black; padding: 8px;">I will have read the book.</td>
-            </tr>
-        </tbody>
-    </table>
-
     <h2>📝 4. How the SAT Tests Verb Tense</h2>
     <p>You may be asked to:</p>
     <ul>
@@ -1020,7 +988,8 @@ const sectionIntroMap = {
     <p>To be a great basketball player, you need to know when to pass, when to shoot, and when to defend. To be a great English writer—and ace the SAT—you need to know when to use which tense. Your dream of college basketball in the USA depends not only on your jump shot but also on your ability to express yourself clearly and confidently.</p>
     <p>So practice your grammar like you practice your free throws—and success will follow.</p>
 `,
-  5: `
+// Summary Section content
+5: `
     <h2>Quiz Summary</h2>
     <p>You've completed the quiz! This summary will help you review your performance, understand the key concepts, and focus on areas where you can improve.</p>
     <p>Good luck with your continued practice!</p>
@@ -1103,8 +1072,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // NEW: Attach event listeners for the 'Back' buttons.
   // These *must* be attached to the buttons that exist in the initial index.html load.
   // The dynamically created buttons in `showSectionList` and `backToIntro` will have
-  // their listeners attached when they are created. This ensures the ones present initially
-  // (e.g., if you refresh on the intro page) also work.
+  // their listeners attached when they are created. This block can technically remain but won't be
+  // the main source of the 'Take the Quiz' button functionality after initial page load.
   const backToSectionsButtonInitial = document.getElementById("backToSectionsButton");
   if (backToSectionsButtonInitial) {
       backToSectionsButtonInitial.addEventListener("click", backToSections);
@@ -1193,7 +1162,7 @@ function showSectionList() {
     1: "Subject-Verb Agreement",
     2: "Sentence Structure", // Consolidated sections 2,3,4,5 into 2.
     3: "Pronoun Agreement", // Section 6 is now Section 3
-    4: "Verb Tense" // Section 7 is now Section 4
+    4: "Verb Tense",
     5: "Summary Practice"
   };
 
