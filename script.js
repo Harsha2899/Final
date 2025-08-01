@@ -1019,6 +1019,11 @@ const sectionIntroMap = {
     <h2>🎯 6. Conclusion: Your Game, Your Grammar</h2>
     <p>To be a great basketball player, you need to know when to pass, when to shoot, and when to defend. To be a great English writer—and ace the SAT—you need to know when to use which tense. Your dream of college basketball in the USA depends not only on your jump shot but also on your ability to express yourself clearly and confidently.</p>
     <p>So practice your grammar like you practice your free throws—and success will follow.</p>
+`,
+  5: `
+    <h2>Quiz Summary</h2>
+    <p>You've completed the quiz! This summary will help you review your performance, understand the key concepts, and focus on areas where you can improve.</p>
+    <p>Good luck with your continued practice!</p>
 `
 };
 
@@ -1189,7 +1194,7 @@ function showSectionList() {
     2: "Sentence Structure", // Consolidated sections 2,3,4,5 into 2.
     3: "Pronoun Agreement", // Section 6 is now Section 3
     4: "Verb Tense" // Section 7 is now Section 4
-    // Section 8 has been removed as requested.
+    5: "Summary Practice"
   };
 
   sectionContainer.innerHTML = ""; // Clear existing section buttons
